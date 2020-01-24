@@ -1,0 +1,881 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2020-01-24 Fri 11:22 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>&lrm;</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Fogus" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2018 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#interesting-alternative-and-hobby-oses">1. Interesting alternative and hobby OSes</a></li>
+<li><a href="#osdev-resources">2. OSDev resources</a>
+<ul>
+<li><a href="#protected-mode">2.1. Protected Mode</a></li>
+<li><a href="#elfcoff">2.2. ELF/COFF</a></li>
+<li><a href="#bootloaders">2.3. Bootloaders</a></li>
+<li><a href="#libraries">2.4. Libraries</a></li>
+</ul>
+</li>
+<li><a href="#osdev-sites">3. OSDev sites</a></li>
+<li><a href="#osdev-case-studies">4. OSDev case studies</a></li>
+<li><a href="#compilers-assemblers-and-languages">5. Compilers, assemblers, and languages</a></li>
+<li><a href="#books-on-and-useful-for-osdev">6. Books on and useful for OSDev</a>
+<ul>
+<li><a href="#foundational">6.1. Foundational</a></li>
+<li><a href="#osdev-books">6.2. OSDev books</a></li>
+<li><a href="#case-studies">6.3. Case studies</a></li>
+<li><a href="#have-yet-to-read-but-that-look-interesting">6.4. Have yet to read, but that look interesting</a></li>
+</ul>
+</li>
+<li><a href="#fogos">7. FogOS</a>
+<ul>
+<li><a href="#org026b323">7.1. Enabling the A20 Line</a></li>
+<li><a href="#memory-map-ideas">7.2. Memory map ideas</a></li>
+<li><a href="#architecture">7.3. Architecture</a></li>
+<li><a href="#booting">7.4. Booting</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<p>
+At <a href="http://blog.fogus.me/2004/01/16/132/">one point</a> I was crazy about
+creating and studying alternative operating systems. While I still find
+OSDev fascinating, I have moved onto other interests. This page contains
+links and notes from my previous studies. I also have a notebook filled
+with notes that I probably might maybe scan or type up one day. As a
+point of background, my first programming job was to convert an existing
+RTOS system for a custom digital board from Cosmac 1802 assembly to C
+and 6809 assembly. It was extremely difficult for me, but I found that I
+loved every moment of it. That project was of course much simpler than a
+general-purpose OS targeting the x86, but it stoked the embers of
+interest in me, and I have been fascinated with OSDev ever since.
+</p>
+
+<div id="outline-container-org2dbe06d" class="outline-2">
+<h2 id="interesting-alternative-and-hobby-oses"><a id="org2dbe06d"></a><span class="section-number-2">1</span> Interesting alternative and hobby OSes</h2>
+<div class="outline-text-2" id="text-interesting-alternative-and-hobby-oses">
+<p>
+I've studied most of these deeply and found them incredibly
+instructional.
+</p>
+
+<ul class="org-ul">
+<li><a href="http://monaos.org/">Mona OS</a> - The OS I would create if I had the
+skill.</li>
+<li><a href="http://www.o3one.org/">O3one</a> - Crazy beautiful</li>
+<li><a href="http://www.losethos.com/">Losethos</a> - Losethos's creator has a very
+clear <a href="http://www.losethos.com/doc/Strategy.html">vision</a> for his OS
+and he's executed that plan perfectly.</li>
+<li><a href="http://www.retroprogramming.com/2011/03/itsy-os-simple-preemptive-switcher.html">Itsy-OS:
+A simple 380 byte OS kernel</a> - True ultimate ASM power.</li>
+<li><a href="http://wiki.xomb.org/index.php?title=XOmB_Bare_Bones">The XOmB Bare
+Bones distribution is a minimal 64 bit OS written in D</a> - Developing
+a kernel in an alternative language is a personal fetish.</li>
+<li><a href="http://losak.sourceforge.net/">LOSAK: Lisp Operating System,
+Abstraction Kernel</a> - Defunct but fun nonetheless.</li>
+<li><a href="http://pdos.csail.mit.edu/exo.html">MIT Exokernel</a></li>
+<li><a href="http://newos.org/">NewOS</a> - Seems to be abandoned, but the code is
+some of the cleanest that you will ever read.</li>
+<li><a href="http://www.swd.de/documents/manuals/neutrino/index_en.html">QNX
+Neutrino</a> - At one point you could see the code to this. It was
+mind-busting.</li>
+<li><a href="http://www.sics.se/contiki/">Contiki</a> - Just plain fun.</li>
+<li><a href="http://wiki.osdev.org/Projects">The grand unified list of hobby and
+educational operating systems</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgb7b45c2" class="outline-2">
+<h2 id="osdev-resources"><a id="orgb7b45c2"></a><span class="section-number-2">2</span> OSDev resources</h2>
+<div class="outline-text-2" id="text-osdev-resources">
+<ul class="org-ul">
+<li><a href="http://replay.waybackmachine.org/20050212051329/http://my.execpc.com/~geezer/johnfine/index.htm">John
+Fine's original site</a></li>
+<li><a href="http://www.vijaymukhi.com/vmis/roll.htm">Ethernet development</a></li>
+<li><a href="http://directory.google.com/Top/Computers/Software/Operating_Systems/">Google's
+OS directory</a></li>
+<li><a href="http://replay.waybackmachine.org/20060524034819/http://www.cs.wvu.edu/~jdm/classes/cs356/notes/mutex/">Mutexes
+and critical section</a></li>
+<li><a href="http://wiki.osdev.org/Creating_a_64-bit_kernel">Creating a 64-bit
+OS</a></li>
+<li><a href="http://bochs.sourceforge.net/">Bochs</a></li>
+</ul>
+</div>
+
+<div id="outline-container-org5f90956" class="outline-3">
+<h3 id="protected-mode"><a id="org5f90956"></a><span class="section-number-3">2.1</span> Protected Mode</h3>
+<div class="outline-text-3" id="text-protected-mode">
+<ul class="org-ul">
+<li><a href="http://members.tripod.com/protected_mode/alexfru/pmtuts.html">Tutorials
+in C and ASM by Alexei Frounze</a> <sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup></li>
+<li><a href="http://genapro.chat.ru/examples.html">PMode tutorials</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org92705e2" class="outline-3">
+<h3 id="elfcoff"><a id="org92705e2"></a><span class="section-number-3">2.2</span> ELF/COFF</h3>
+<div class="outline-text-3" id="text-elfcoff">
+<ul class="org-ul">
+<li><a href="http://alexfru.chat.ru/epm.html#coffutils">COFF by Alexei Frounze</a></li>
+<li><a href="http://wiki.osdev.org/ELF">ELF</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgd3326b1" class="outline-3">
+<h3 id="bootloaders"><a id="orgd3326b1"></a><span class="section-number-3">2.3</span> Bootloaders</h3>
+<div class="outline-text-3" id="text-bootloaders">
+<ul class="org-ul">
+<li><a href="http://wiki.osdev.org/Rolling_Your_Own_Bootloader">Basics of
+bootloaders</a></li>
+<li><a href="http://osdev.berlios.de/netboot.html">Network booting</a></li>
+<li><a href="http://wiki.osdev.org/El-Torito">El Torito</a> (CD-ROM bootsectors)</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgf41366c" class="outline-3">
+<h3 id="libraries"><a id="orgf41366c"></a><span class="section-number-3">2.4</span> Libraries</h3>
+<div class="outline-text-3" id="text-libraries">
+<ul class="org-ul">
+<li><a href="http://www.cs.utah.edu/flux/oskit/">OSKit</a> - Although I've never
+used it, the abstractions it provides are worth studying.</li>
+<li><a href="http://scanlime.org/2008/03/introducing-metalkit/">Metalkit: simple
+library for writing programs that run on IA32 (x86) machines on the
+bare metal</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgb6b4e81" class="outline-2">
+<h2 id="osdev-sites"><a id="orgb6b4e81"></a><span class="section-number-2">3</span> OSDev sites</h2>
+<div class="outline-text-2" id="text-osdev-sites">
+<ul class="org-ul">
+<li><a href="http://www.osnews.com/">OSnews</a> (<i>my favorite</i>)</li>
+<li><a href="http://reddit.com/r/osdev">r/osdev</a> - a subreddit moderated by me</li>
+<li><a href="http://wiki.osdev.org/Main_Page">OSDev.org</a> - teaching people how
+to clone UNIX since 2000</li>
+<li><a href="http://www.nondot.org/sabre/os/articles/">Operating System resource
+center</a></li>
+<li><a href="http://www.osdever.net/tutorials/index">Bonafide OS Dever</a></li>
+<li><a href="http://groups.google.com/group/alt.os.development/topics">alt.os.development</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgbef5157" class="outline-2">
+<h2 id="osdev-case-studies"><a id="orgbef5157"></a><span class="section-number-2">4</span> OSDev case studies</h2>
+<div class="outline-text-2" id="text-osdev-case-studies">
+<ul class="org-ul">
+<li><a href="http://www.bell-labs.com/history/unix/">The Creation of the UNIX
+Operating System</a></li>
+<li><a href="http://www.patersontech.com/Dos/Byte/InsideDos.htm">An inside look
+at MS-DOS</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org63754d5" class="outline-2">
+<h2 id="compilers-assemblers-and-languages"><a id="org63754d5"></a><span class="section-number-2">5</span> Compilers, assemblers, and languages</h2>
+<div class="outline-text-2" id="text-compilers-assemblers-and-languages">
+<p>
+These are not always current, but much can be learned from them all.
+</p>
+
+<ul class="org-ul">
+<li><a href="http://www.nasm.us/">NASM</a></li>
+<li><a href="http://bellard.org/tcc/">TCC</a></li>
+<li><a href="http://www.debath.co.uk/">BCC</a></li>
+<li><a href="http://edn.embarcadero.com/article/20803">Turbo Pascal v5.5</a> (<i>my
+first compiler</i>)</li>
+<li><a href="http://edn.embarcadero.com/museum/">Borland compiler museum</a></li>
+<li><a href="http://www.devq.net/pascal/">The Pascal programmers' page</a></li>
+<li><a href="http://snippets.snippets.org/index.php">C/C++ Snippets</a></li>
+<li><a href="http://www.amazon.com/o/asin/0201183935?tag=fogus-20">Inside the
+JavaOS Operating System</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgbd1e79e" class="outline-2">
+<h2 id="books-on-and-useful-for-osdev"><a id="orgbd1e79e"></a><span class="section-number-2">6</span> Books on and useful for OSDev</h2>
+<div class="outline-text-2" id="text-books-on-and-useful-for-osdev">
+<p>
+Interestingly, there are not that many books on developing your own
+operating systems. I've read most of those that deal with the topic
+directly, and some of those that touch on it only tangentially. Below
+are the books that I found particularly useful, relevant, and/or
+interesting:
+</p>
+</div>
+
+<div id="outline-container-org8c1d127" class="outline-3">
+<h3 id="foundational"><a id="org8c1d127"></a><span class="section-number-3">6.1</span> Foundational</h3>
+<div class="outline-text-3" id="text-foundational">
+<ul class="org-ul">
+<li><a href="http://www.amazon.com/exec/obidos/ASIN/0130313580/fogus-20/">_Modern
+Operating Systems</a>_ by Tannenbaum (<b>start here</b>)</li>
+<li><a href="http://www.letterp.com/~dbg/">_Practical File System Design</a>_ by
+Giampaolo</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org8dcec81" class="outline-3">
+<h3 id="osdev-books"><a id="org8dcec81"></a><span class="section-number-3">6.2</span> OSDev books</h3>
+<div class="outline-text-3" id="text-osdev-books">
+<ul class="org-ul">
+<li><a href="http://www.amazon.com/o/asin/0136375391?tag=fogus-20">_OS Design:
+the XINU Approach</a>_ by Comer</li>
+<li><a href="http://www.amazon.com/o/asin/1588530000?tag=fogus-20">_MMURTL</a>_ by
+Burgess</li>
+<li><a href="http://www.amazon.com/Developing-32-Bit-Operating-System-Cd-Rom/dp/0672306557?tag=fogus-20">_Developing
+Your Own 32-Bit Operating System</a>_ by Burgess</li>
+<li><a href="http://www.amazon.com/o/asin/020155447X?tag=fogus-20">_Protected
+Mode Software Architecture</a>_ by Shanley</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgab2266e" class="outline-3">
+<h3 id="case-studies"><a id="orgab2266e"></a><span class="section-number-3">6.3</span> Case studies</h3>
+<div class="outline-text-3" id="text-case-studies">
+<ul class="org-ul">
+<li><a href="http://www.amazon.com/o/asin/0131482092?tag=fogus-20">_Solaris
+Internals</a>_ by McDougal</li>
+<li><a href="http://www.amazon.com/o/asin/1573980137?tag=fogus-20">_Lions'
+Commentary on UNIX</a>_ by John Lions</li>
+<li><a href="http://www.amazon.com/o/asin/0132017997?tag=fogus-20">_The Design of
+the UNIX Operating System</a>_ by Bach</li>
+<li><a href="http://www.amazon.com/o/asin/0764545698?tag=fogus-20">_Undocumented
+Windows NT</a>_ by Dabak and Phadke</li>
+<li><a href="http://www.amazon.com/o/asin/0471164836?tag=fogus-20">_UNIX
+Filesystems: Evolution, Design, and Implementation</a>_ by Pate</li>
+<li><a href="http://www.amazon.com/o/asin/1572316772?tag=fogus-20">_Inside
+Windows NT</a>_ by Custer</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org4ec7be2" class="outline-3">
+<h3 id="have-yet-to-read-but-that-look-interesting"><a id="org4ec7be2"></a><span class="section-number-3">6.4</span> Have yet to read, but that look interesting</h3>
+<div class="outline-text-3" id="text-have-yet-to-read-but-that-look-interesting">
+<ul class="org-ul">
+<li><a href="http://www.amazon.com/o/asin/020162687X?tag=fogus-20">_Dissecting
+DOS</a>_ by Podanoffsky</li>
+<li><a href="http://www.amazon.com/exec/obidos/ASIN/0201544288/fogus-20/">_Project
+Oberon - The Design of an Operating System and Compiler</a>_ by Wirth</li>
+<li><a href="http://www.amazon.com/o/asin/0470025247?tag=fogus-20">_The Symbian
+OS Internals</a>_ by Jane Sales</li>
+<li><a href="http://www.amazon.com/o/asin/0750664711?tag=fogus-20">_Real-Time
+Systems Development</a>_ by Williams</li>
+<li><i>Open VMS Operating System Concepts</i> by David Miller</li>
+<li><i>TinyOS Programming</i> by Levis and Gay</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org753f5a4" class="outline-2">
+<h2 id="fogos"><a id="org753f5a4"></a><span class="section-number-2">7</span> FogOS</h2>
+<div class="outline-text-2" id="text-fogos">
+<p>
+I started down the path of writing an OS, aptly named FogOS written in
+C++. Below are some of the notes that I created (well, those I've been
+able to find).
+</p>
+</div>
+
+<div id="outline-container-org026b323" class="outline-3">
+<h3 id="org026b323"><span class="section-number-3">7.1</span> Enabling the A20 Line</h3>
+<div class="outline-text-3" id="text-7-1">
+<div class="org-src-container">
+<pre class="src src-asm"><span style="color: #cd0000;">;;</span>
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">enableA20.s (adapted from Visopsys OS-loader)</span>
+<span style="color: #cd0000;">;;</span>
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">Copyright (c) 2000, J. Andrew McLaughlin</span>
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">You're free to use this code in any manner you like, as long as this</span>
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">notice is included (and you give credit where it is due), and as long</span>
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">as you understand and accept that it comes with NO WARRANTY OF ANY KIND.</span>
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">Contact me at jamesamc@yahoo.com about any bugs or problems.</span>
+<span style="color: #cd0000;">;;</span>
+
+<span style="color: #0000ee; font-weight: bold;">enableA20</span>:
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">This subroutine will enable the A20 address line in the keyboard</span>
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">controller.  Takes no arguments.  Returns 0 in EAX on success, </span>
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">-1 on failure.  Written for use in 16-bit code, see lines marked</span>
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">with 32-BIT for use in 32-bit code.</span>
+
+<span style="color: #0000ee; font-weight: bold;">pusha</span>
+
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">Make sure interrupts are disabled</span>
+<span style="color: #0000ee; font-weight: bold;">cli</span>
+
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">Keep a counter so that we can make up to 5 attempts to turn</span>
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">on A20 if necessary</span>
+<span style="color: #0000ee; font-weight: bold;">mov</span> <span style="color: #00cdcd; font-weight: bold;">CX</span>, 5
+
+<span style="color: #0000ee; font-weight: bold;">.startAttempt1</span>:     
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">Wait for the controller to be ready for a command</span>
+<span style="color: #0000ee; font-weight: bold;">.commandWait1</span>:
+<span style="color: #0000ee; font-weight: bold;">xor</span> <span style="color: #00cdcd; font-weight: bold;">AX</span>, AX
+<span style="color: #0000ee; font-weight: bold;">in</span> <span style="color: #00cdcd; font-weight: bold;">AL</span>, 64h
+<span style="color: #0000ee; font-weight: bold;">bt</span> <span style="color: #00cdcd; font-weight: bold;">AX</span>, 1
+<span style="color: #0000ee; font-weight: bold;">jc</span> .commandWait1
+
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">Tell the controller we want to read the current status.</span>
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">Send the command D0h: read output port.</span>
+<span style="color: #0000ee; font-weight: bold;">mov</span> <span style="color: #00cdcd; font-weight: bold;">AL</span>, 0D0h
+<span style="color: #0000ee; font-weight: bold;">out</span> <span style="color: #00cdcd; font-weight: bold;">64h</span>, AL
+
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">Wait for the controller to be ready with a byte of data</span>
+<span style="color: #0000ee; font-weight: bold;">.dataWait1</span>:
+<span style="color: #0000ee; font-weight: bold;">xor</span> <span style="color: #00cdcd; font-weight: bold;">AX</span>, AX
+<span style="color: #0000ee; font-weight: bold;">in</span> <span style="color: #00cdcd; font-weight: bold;">AL</span>, 64h
+<span style="color: #0000ee; font-weight: bold;">bt</span> <span style="color: #00cdcd; font-weight: bold;">AX</span>, 0
+<span style="color: #0000ee; font-weight: bold;">jnc</span> .dataWait1
+
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">Read the current port status from port 60h</span>
+<span style="color: #0000ee; font-weight: bold;">xor</span> <span style="color: #00cdcd; font-weight: bold;">AX</span>, AX
+<span style="color: #0000ee; font-weight: bold;">in</span> <span style="color: #00cdcd; font-weight: bold;">AL</span>, 60h
+
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">Save the current value of (E)AX</span>
+<span style="color: #0000ee; font-weight: bold;">push</span> <span style="color: #00cdcd; font-weight: bold;">AX</span>         <span style="color: #cd0000;">; </span><span style="color: #cd0000;">16-BIT</span>
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">push EAX     ; 32-BIT</span>
+
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">Wait for the controller to be ready for a command</span>
+<span style="color: #0000ee; font-weight: bold;">.commandWait2</span>:
+<span style="color: #0000ee; font-weight: bold;">in</span> <span style="color: #00cdcd; font-weight: bold;">AL</span>, 64h
+<span style="color: #0000ee; font-weight: bold;">bt</span> <span style="color: #00cdcd; font-weight: bold;">AX</span>, 1
+<span style="color: #0000ee; font-weight: bold;">jc</span> .commandWait2
+
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">Tell the controller we want to write the status byte again</span>
+<span style="color: #0000ee; font-weight: bold;">mov</span> <span style="color: #00cdcd; font-weight: bold;">AL</span>, 0D1h
+<span style="color: #0000ee; font-weight: bold;">out</span> <span style="color: #00cdcd; font-weight: bold;">64h</span>, AL 
+
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">Wait for the controller to be ready for the data</span>
+<span style="color: #0000ee; font-weight: bold;">.commandWait3</span>:
+<span style="color: #0000ee; font-weight: bold;">xor</span> <span style="color: #00cdcd; font-weight: bold;">AX</span>, AX
+<span style="color: #0000ee; font-weight: bold;">in</span> <span style="color: #00cdcd; font-weight: bold;">AL</span>, 64h
+<span style="color: #0000ee; font-weight: bold;">bt</span> <span style="color: #00cdcd; font-weight: bold;">AX</span>, 1
+<span style="color: #0000ee; font-weight: bold;">jc</span> .commandWait3
+
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">Write the new value to port 60h.  Remember we saved the old</span>
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">value on the stack</span>
+<span style="color: #0000ee; font-weight: bold;">pop</span> <span style="color: #00cdcd; font-weight: bold;">AX</span>          <span style="color: #cd0000;">; </span><span style="color: #cd0000;">16-BIT</span>
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">pop EAX      ; 32-BIT</span>
+
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">Turn on the A20 enable bit</span>
+<span style="color: #0000ee; font-weight: bold;">or</span> <span style="color: #00cdcd; font-weight: bold;">AL</span>, 00000010b
+<span style="color: #0000ee; font-weight: bold;">out</span> <span style="color: #00cdcd; font-weight: bold;">60h</span>, AL
+
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">Finally, we will attempt to read back the A20 status</span>
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">to ensure it was enabled.</span>
+
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">Wait for the controller to be ready for a command</span>
+<span style="color: #0000ee; font-weight: bold;">.commandWait4</span>:
+<span style="color: #0000ee; font-weight: bold;">xor</span> <span style="color: #00cdcd; font-weight: bold;">AX</span>, AX
+<span style="color: #0000ee; font-weight: bold;">in</span> <span style="color: #00cdcd; font-weight: bold;">AL</span>, 64h
+<span style="color: #0000ee; font-weight: bold;">bt</span> <span style="color: #00cdcd; font-weight: bold;">AX</span>, 1
+<span style="color: #0000ee; font-weight: bold;">jc</span> .commandWait4
+
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">Send the command D0h: read output port.</span>
+<span style="color: #0000ee; font-weight: bold;">mov</span> <span style="color: #00cdcd; font-weight: bold;">AL</span>, 0D0h
+<span style="color: #0000ee; font-weight: bold;">out</span> <span style="color: #00cdcd; font-weight: bold;">64h</span>, AL 
+
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">Wait for the controller to be ready with a byte of data</span>
+<span style="color: #0000ee; font-weight: bold;">.dataWait2</span>:
+<span style="color: #0000ee; font-weight: bold;">xor</span> <span style="color: #00cdcd; font-weight: bold;">AX</span>, AX
+<span style="color: #0000ee; font-weight: bold;">in</span> <span style="color: #00cdcd; font-weight: bold;">AL</span>, 64h
+<span style="color: #0000ee; font-weight: bold;">bt</span> <span style="color: #00cdcd; font-weight: bold;">AX</span>, 0
+<span style="color: #0000ee; font-weight: bold;">jnc</span> .dataWait2
+
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">Read the current port status from port 60h</span>
+<span style="color: #0000ee; font-weight: bold;">xor</span> <span style="color: #00cdcd; font-weight: bold;">AX</span>, AX
+<span style="color: #0000ee; font-weight: bold;">in</span> <span style="color: #00cdcd; font-weight: bold;">AL</span>, 60h
+
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">Is A20 enabled?</span>
+<span style="color: #0000ee; font-weight: bold;">bt</span> <span style="color: #00cdcd; font-weight: bold;">AX</span>, 1
+
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">Check the result.  If carry is on, A20 is on.</span>
+<span style="color: #0000ee; font-weight: bold;">jc</span> .success
+
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">Should we retry the operation?  If the counter value in ECX</span>
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">has not reached zero, we will retry</span>
+<span style="color: #0000ee; font-weight: bold;">loop</span> .startAttempt1
+
+
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">Well, our initial attempt to set A20 has failed.  Now we will</span>
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">try a backup method (which is supposedly not supported on many</span>
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">chipsets, but which seems to be the only method that works on</span>
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">other chipsets).</span>
+
+
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">Keep a counter so that we can make up to 5 attempts to turn</span>
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">on A20 if necessary</span>
+<span style="color: #0000ee; font-weight: bold;">mov</span> <span style="color: #00cdcd; font-weight: bold;">CX</span>, 5
+
+<span style="color: #0000ee; font-weight: bold;">.startAttempt2</span>:
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">Wait for the keyboard to be ready for another command</span>
+<span style="color: #0000ee; font-weight: bold;">.commandWait6</span>:
+<span style="color: #0000ee; font-weight: bold;">xor</span> <span style="color: #00cdcd; font-weight: bold;">AX</span>, AX
+<span style="color: #0000ee; font-weight: bold;">in</span> <span style="color: #00cdcd; font-weight: bold;">AL</span>, 64h
+<span style="color: #0000ee; font-weight: bold;">bt</span> <span style="color: #00cdcd; font-weight: bold;">AX</span>, 1
+<span style="color: #0000ee; font-weight: bold;">jc</span> .commandWait6
+
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">Tell the controller we want to turn on A20</span>
+<span style="color: #0000ee; font-weight: bold;">mov</span> <span style="color: #00cdcd; font-weight: bold;">AL</span>, 0DFh
+<span style="color: #0000ee; font-weight: bold;">out</span> <span style="color: #00cdcd; font-weight: bold;">64h</span>, AL
+
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">Again, we will attempt to read back the A20 status</span>
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">to ensure it was enabled.</span>
+
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">Wait for the controller to be ready for a command</span>
+<span style="color: #0000ee; font-weight: bold;">.commandWait7</span>:
+<span style="color: #0000ee; font-weight: bold;">xor</span> <span style="color: #00cdcd; font-weight: bold;">AX</span>, AX
+<span style="color: #0000ee; font-weight: bold;">in</span> <span style="color: #00cdcd; font-weight: bold;">AL</span>, 64h
+<span style="color: #0000ee; font-weight: bold;">bt</span> <span style="color: #00cdcd; font-weight: bold;">AX</span>, 1
+<span style="color: #0000ee; font-weight: bold;">jc</span> .commandWait7
+
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">Send the command D0h: read output port.</span>
+<span style="color: #0000ee; font-weight: bold;">mov</span> <span style="color: #00cdcd; font-weight: bold;">AL</span>, 0D0h
+<span style="color: #0000ee; font-weight: bold;">out</span> <span style="color: #00cdcd; font-weight: bold;">64h</span>, AL 
+
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">Wait for the controller to be ready with a byte of data</span>
+<span style="color: #0000ee; font-weight: bold;">.dataWait3</span>:
+<span style="color: #0000ee; font-weight: bold;">xor</span> <span style="color: #00cdcd; font-weight: bold;">AX</span>, AX
+<span style="color: #0000ee; font-weight: bold;">in</span> <span style="color: #00cdcd; font-weight: bold;">AL</span>, 64h
+<span style="color: #0000ee; font-weight: bold;">bt</span> <span style="color: #00cdcd; font-weight: bold;">AX</span>, 0
+<span style="color: #0000ee; font-weight: bold;">jnc</span> .dataWait3
+
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">Read the current port status from port 60h</span>
+<span style="color: #0000ee; font-weight: bold;">xor</span> <span style="color: #00cdcd; font-weight: bold;">AX</span>, AX
+<span style="color: #0000ee; font-weight: bold;">in</span> <span style="color: #00cdcd; font-weight: bold;">AL</span>, 60h
+
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">Is A20 enabled?</span>
+<span style="color: #0000ee; font-weight: bold;">bt</span> <span style="color: #00cdcd; font-weight: bold;">AX</span>, 1
+
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">Check the result.  If carry is on, A20 is on, but we might warn</span>
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">that we had to use this alternate method</span>
+<span style="color: #0000ee; font-weight: bold;">jc</span> .warn
+
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">Should we retry the operation?  If the counter value in ECX</span>
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">has not reached zero, we will retry</span>
+<span style="color: #0000ee; font-weight: bold;">loop</span> .startAttempt2
+
+
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">OK, we weren't able to set the A20 address line.  Do you want</span>
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">to put an error message here?</span>
+<span style="color: #0000ee; font-weight: bold;">jmp</span> .fail
+
+
+<span style="color: #0000ee; font-weight: bold;">.warn</span>:
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">Here you may or may not want to print a warning message about</span>
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">the fact that we had to use the nonstandard alternate enabling</span>
+<span style="color: #cd0000;">;; </span><span style="color: #cd0000;">method</span>
+
+<span style="color: #0000ee; font-weight: bold;">.success</span>:
+<span style="color: #0000ee; font-weight: bold;">sti</span>
+<span style="color: #0000ee; font-weight: bold;">popa</span>
+<span style="color: #0000ee; font-weight: bold;">xor</span> <span style="color: #00cdcd; font-weight: bold;">EAX</span>, EAX
+<span style="color: #0000ee; font-weight: bold;">ret</span>
+
+<span style="color: #0000ee; font-weight: bold;">.fail</span>:
+<span style="color: #0000ee; font-weight: bold;">sti</span>
+<span style="color: #0000ee; font-weight: bold;">popa</span>
+<span style="color: #0000ee; font-weight: bold;">mov</span> <span style="color: #00cdcd; font-weight: bold;">EAX</span>, -1
+<span style="color: #0000ee; font-weight: bold;">ret</span>
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgd141308" class="outline-3">
+<h3 id="memory-map-ideas"><a id="orgd141308"></a><span class="section-number-3">7.2</span> Memory map ideas</h3>
+<div class="outline-text-3" id="text-memory-map-ideas">
+<pre class="example">
+Address       Size            Description
+---------     ---------       ---------------------------------
+0000 0000     1 KB            Real-mode interrupt vector table
+0000 0400     256 bytes       ROM-BIOS data
+0000 0500     62.75 KB
+0001 0000     256 KB          miscellaneous data
+0005 0000     64 KB           Kernel stack at startup
+0006 0000     512 bytes       Kernel IDT
+0006 0200     64 KB           Kernel TSS's
+0007 0200     512 bytes       GDT
+0007 0400     63 KB
+0008 0000     64 KB           Kernel read-only data
+0009 0000     64 KB           Kernel heap
+000a 0000     128 KB          Video memory
+000c 0000     64 KB           Kernel ES
+000d 0000     128 KB
+000f 0000     64 KB           ROM-BIOS
+--  1MB --
+0010 0000     64 KB           Kernel code
+
+0010 FFF0     Max end of kernel (65,520 bytes)
+
+0050 0000     4 MB            Stack of physical memory pages
+008F F000     4 KB            Page table staging area
+0090 0000     4 KB            Kernel page directory
+0090 1000     ???             Kernel page tables
+???? ????
+00f0 0000     1 MB            Low DMA area
+-- 16MB --
+0100 0000     Unlimited       Available to applications
+</pre>
+
+<p>
+I've left some BIOS stuff as I found it.
+</p>
+
+<p>
+My boot loader loads my kernel at 1MB physical. Given the 16-bit
+real-mode<br />
+nature of the boot code, it can't load anything beyond 1MB+65,520, so
+for<br />
+the time being my kernel is limited to 65,520 bytes in size. Currently<br />
+it's at 36,864 bytes. I know that one day, in the not-too-distant
+future,<br />
+I'll have to do something about this. Maybe load it lower and then let
+it<br />
+move itself? Or break the kernel up into two files: a small one that
+the<br />
+boot loader loads, and that then loads the full kernel. I don't know.
+</p>
+
+<p>
+Some of these areas that I've reserved might not make sense. I pretty
+much<br />
+drew up this map before I know what I was doing (ha! I still don't!)
+and<br />
+so I made room for things like TSS's (plural) but I really won't know
+what<br />
+I'll need there until I get to processes and task switching.
+</p>
+
+<p>
+I don't do any relocations. My kernel is linked to load at 1MB and the<br />
+boot loader loads it directly there. Every time someone talks about<br />
+relocations I wonder what I'm missing. Looking forward to finding out
+:-)
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgc8cb8d4" class="outline-3">
+<h3 id="architecture"><a id="orgc8cb8d4"></a><span class="section-number-3">7.3</span> Architecture</h3>
+<div class="outline-text-3" id="text-architecture">
+<p>
+My ideas for a microkernel. Looking back on FogOS I realize that the
+kernel was less interesting than the HAL. I spent a lot of time thinking
+about the HAL and it's base abstractions. I actually went down the path
+of implementing it based on the following image:
+</p>
+
+
+<div class="figure">
+<p><img src="http://images.fogus.me/blog/fogos_overview.png" alt="fogos_overview.png" />
+</p>
+<p><span class="figure-number">Figure 1: </span>FogOS Overview</p>
+</div>
+
+<p>
+You'll notice that I have a crypto service all the way down in the
+kernel. My thinking at the time was that I could gather interesting
+entropy at the kernel level. I recall reading some papers about this,
+but their titles have long since faded. Anyway, I added at least one
+hook for the entropy gathering and planned for more.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org0c26e95" class="outline-3">
+<h3 id="booting"><a id="org0c26e95"></a><span class="section-number-3">7.4</span> Booting</h3>
+<div class="outline-text-3" id="text-booting">
+<p>
+Some bits of the implementation of the image above eventually booted!
+</p>
+
+
+<div class="figure">
+<p><img src="http://images.fogus.me/blog/fogos_001_boot.png" alt="fogos_001_boot.png" />
+</p>
+<p><span class="figure-number">Figure 2: </span>Boots</p>
+</div>
+
+<p>
+And then after adding the HAL, it was still able to boot!
+</p>
+
+
+<div class="figure">
+<p><img src="http://images.fogus.me/blog/fogos_002_boot.png" alt="fogos_002_boot.png" />
+</p>
+<p><span class="figure-number">Figure 3: </span>HAL Boots</p>
+</div>
+
+<p>
+&#x2026; and that is where I left it.<sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup>
+</p>
+
+<p>
+One day I shall return.
+</p>
+</div>
+</div>
+</div>
+<div id="footnotes">
+<h2 class="footnotes">Footnotes: </h2>
+<div id="text-footnotes">
+
+<div class="footdef"><sup><a id="fn.1" class="footnum" href="#fnr.1">1</a></sup> <div class="footpara"><p class="footpara">
+Alexei Frounze is a hobby OSDev luminary. It's well-worth
+studying his code if you're interested in creating your own OS.
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.2" class="footnum" href="#fnr.2">2</a></sup> <div class="footpara"><p class="footpara">
+And this is where 99% of hobby OS practitioners leave it.
+</p></div></div>
+
+
+</div>
+</div></div>
+<div id="postamble" class="status">
+<p class="author">Author: Fogus</p>
+<p class="date">Created: 2020-01-24 Fri 11:22</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
