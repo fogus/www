@@ -1,0 +1,325 @@
+At [[http://blog.fogus.me/2004/01/16/132/][one point]] I was crazy about
+creating and studying alternative operating systems. While I still find
+OSDev fascinating, I have moved onto other interests. This page contains
+links and notes from my previous studies. I also have a notebook filled
+with notes that I probably might maybe scan or type up one day. As a
+point of background, my first programming job was to convert an existing
+RTOS system for a custom digital board from Cosmac 1802 assembly to C
+and 6809 assembly. It was extremely difficult for me, but I found that I
+loved every moment of it. That project was of course much simpler than a
+general-purpose OS targeting the x86, but it stoked the embers of
+interest in me, and I have been fascinated with OSDev ever since.
+
+* Interesting alternative and hobby OSes
+  :PROPERTIES:
+  :CUSTOM_ID: interesting-alternative-and-hobby-oses
+  :END:
+
+I've studied most of these deeply and found them incredibly
+instructional.
+
+- [[http://monaos.org/][Mona OS]] - The OS I would create if I had the
+  skill.
+- [[http://www.o3one.org/][O3one]] - Crazy beautiful
+- [[http://www.losethos.com/][Losethos]] - Losethos's creator has a very
+  clear [[http://www.losethos.com/doc/Strategy.html][vision]] for his OS
+  and he's executed that plan perfectly.
+- [[http://www.retroprogramming.com/2011/03/itsy-os-simple-preemptive-switcher.html][Itsy-OS:
+  A simple 380 byte OS kernel]] - True ultimate ASM power.
+- [[http://wiki.xomb.org/index.php?title=XOmB_Bare_Bones][The XOmB Bare
+  Bones distribution is a minimal 64 bit OS written in D]] - Developing
+  a kernel in an alternative language is a personal fetish.
+- [[http://losak.sourceforge.net/][LOSAK: Lisp Operating System,
+  Abstraction Kernel]] - Defunct but fun nonetheless.
+- [[http://pdos.csail.mit.edu/exo.html][MIT Exokernel]]
+- [[http://newos.org/][NewOS]] - Seems to be abandoned, but the code is
+  some of the cleanest that you will ever read.
+- [[http://www.swd.de/documents/manuals/neutrino/index_en.html][QNX
+  Neutrino]] - At one point you could see the code to this. It was
+  mind-busting.
+- [[http://www.sics.se/contiki/][Contiki]] - Just plain fun.
+- [[http://wiki.osdev.org/Projects][The grand unified list of hobby and
+  educational operating systems]]
+
+* OSDev resources
+  :PROPERTIES:
+  :CUSTOM_ID: osdev-resources
+  :END:
+
+- [[http://replay.waybackmachine.org/20050212051329/http://my.execpc.com/~geezer/johnfine/index.htm][John
+  Fine's original site]]
+- [[http://www.vijaymukhi.com/vmis/roll.htm][Ethernet development]]
+- [[http://directory.google.com/Top/Computers/Software/Operating_Systems/][Google's
+  OS directory]]
+- [[http://replay.waybackmachine.org/20060524034819/http://www.cs.wvu.edu/~jdm/classes/cs356/notes/mutex/][Mutexes
+  and critical section]]
+- [[http://wiki.osdev.org/Creating_a_64-bit_kernel][Creating a 64-bit
+  OS]]
+- [[http://bochs.sourceforge.net/][Bochs]]
+
+** Protected Mode
+   :PROPERTIES:
+   :CUSTOM_ID: protected-mode
+   :END:
+
+- [[http://members.tripod.com/protected_mode/alexfru/pmtuts.html][Tutorials
+  in C and ASM by Alexei Frounze]] [fn:1]
+- [[http://genapro.chat.ru/examples.html][PMode tutorials]]
+
+** ELF/COFF
+   :PROPERTIES:
+   :CUSTOM_ID: elfcoff
+   :END:
+
+- [[http://alexfru.chat.ru/epm.html#coffutils][COFF by Alexei Frounze]]
+- [[http://wiki.osdev.org/ELF][ELF]]
+
+** Bootloaders
+   :PROPERTIES:
+   :CUSTOM_ID: bootloaders
+   :END:
+
+- [[http://wiki.osdev.org/Rolling_Your_Own_Bootloader][Basics of
+  bootloaders]]
+- [[http://osdev.berlios.de/netboot.html][Network booting]]
+- [[http://wiki.osdev.org/El-Torito][El Torito]] (CD-ROM bootsectors)
+
+** Libraries
+   :PROPERTIES:
+   :CUSTOM_ID: libraries
+   :END:
+
+- [[http://www.cs.utah.edu/flux/oskit/][OSKit]] - Although I've never
+  used it, the abstractions it provides are worth studying.
+- [[http://scanlime.org/2008/03/introducing-metalkit/][Metalkit: simple
+  library for writing programs that run on IA32 (x86) machines on the
+  bare metal]]
+
+* OSDev sites
+  :PROPERTIES:
+  :CUSTOM_ID: osdev-sites
+  :END:
+
+- [[http://www.osnews.com/][OSnews]] (/my favorite/)
+- [[http://reddit.com/r/osdev][r/osdev]] - a subreddit moderated by me
+- [[http://wiki.osdev.org/Main_Page][OSDev.org]] - teaching people how
+  to clone UNIX since 2000
+- [[http://www.nondot.org/sabre/os/articles/][Operating System resource
+  center]]
+- [[http://www.osdever.net/tutorials/index][Bonafide OS Dever]]
+- [[http://groups.google.com/group/alt.os.development/topics][alt.os.development]]
+
+* OSDev case studies
+  :PROPERTIES:
+  :CUSTOM_ID: osdev-case-studies
+  :END:
+
+- [[http://www.bell-labs.com/history/unix/][The Creation of the UNIX
+  Operating System]]
+- [[http://www.patersontech.com/Dos/Byte/InsideDos.htm][An inside look
+  at MS-DOS]]
+
+* Compilers, assemblers, and languages
+  :PROPERTIES:
+  :CUSTOM_ID: compilers-assemblers-and-languages
+  :END:
+
+These are not always current, but much can be learned from them all.
+
+- [[http://www.nasm.us/][NASM]]
+- [[http://bellard.org/tcc/][TCC]]
+- [[http://www.debath.co.uk/][BCC]]
+- [[http://edn.embarcadero.com/article/20803][Turbo Pascal v5.5]] (/my
+  first compiler/)
+- [[http://edn.embarcadero.com/museum/][Borland compiler museum]]
+- [[http://www.devq.net/pascal/][The Pascal programmers' page]]
+- [[http://snippets.snippets.org/index.php][C/C++ Snippets]]
+- [[http://www.amazon.com/o/asin/0201183935?tag=fogus-20][Inside the
+  JavaOS Operating System]]
+
+* Books on and useful for OSDev
+  :PROPERTIES:
+  :CUSTOM_ID: books-on-and-useful-for-osdev
+  :END:
+
+Interestingly, there are not that many books on developing your own
+operating systems. I've read most of those that deal with the topic
+directly, and some of those that touch on it only tangentially. Below
+are the books that I found particularly useful, relevant, and/or
+interesting:
+
+** Foundational
+   :PROPERTIES:
+   :CUSTOM_ID: foundational
+   :END:
+
+- [[http://www.amazon.com/exec/obidos/ASIN/0130313580/fogus-20/][_Modern
+  Operating Systems]]_ by Tannenbaum (*start here*)
+- [[http://www.letterp.com/~dbg/][_Practical File System Design]]_ by
+  Giampaolo
+
+** OSDev books
+   :PROPERTIES:
+   :CUSTOM_ID: osdev-books
+   :END:
+
+- [[http://www.amazon.com/o/asin/0136375391?tag=fogus-20][_OS Design:
+  the XINU Approach]]_ by Comer
+- [[http://www.amazon.com/o/asin/1588530000?tag=fogus-20][_MMURTL]]_ by
+  Burgess
+- [[http://www.amazon.com/Developing-32-Bit-Operating-System-Cd-Rom/dp/0672306557?tag=fogus-20][_Developing
+  Your Own 32-Bit Operating System]]_ by Burgess
+- [[http://www.amazon.com/o/asin/020155447X?tag=fogus-20][_Protected
+  Mode Software Architecture]]_ by Shanley
+
+** Case studies
+   :PROPERTIES:
+   :CUSTOM_ID: case-studies
+   :END:
+
+- [[http://www.amazon.com/o/asin/0131482092?tag=fogus-20][_Solaris
+  Internals]]_ by McDougal
+- [[http://www.amazon.com/o/asin/1573980137?tag=fogus-20][_Lions'
+  Commentary on UNIX]]_ by John Lions
+- [[http://www.amazon.com/o/asin/0132017997?tag=fogus-20][_The Design of
+  the UNIX Operating System]]_ by Bach
+- [[http://www.amazon.com/o/asin/0764545698?tag=fogus-20][_Undocumented
+  Windows NT]]_ by Dabak and Phadke
+- [[http://www.amazon.com/o/asin/0471164836?tag=fogus-20][_UNIX
+  Filesystems: Evolution, Design, and Implementation]]_ by Pate
+- [[http://www.amazon.com/o/asin/1572316772?tag=fogus-20][_Inside
+  Windows NT]]_ by Custer
+
+** Have yet to read, but that look interesting
+   :PROPERTIES:
+   :CUSTOM_ID: have-yet-to-read-but-that-look-interesting
+   :END:
+
+- [[http://www.amazon.com/o/asin/020162687X?tag=fogus-20][_Dissecting
+  DOS]]_ by Podanoffsky
+- [[http://www.amazon.com/exec/obidos/ASIN/0201544288/fogus-20/][_Project
+  Oberon - The Design of an Operating System and Compiler]]_ by Wirth
+- [[http://www.amazon.com/o/asin/0470025247?tag=fogus-20][_The Symbian
+  OS Internals]]_ by Jane Sales
+- [[http://www.amazon.com/o/asin/0750664711?tag=fogus-20][_Real-Time
+  Systems Development]]_ by Williams
+- /Open VMS Operating System Concepts/ by David Miller
+- /TinyOS Programming/ by Levis and Gay
+
+* FogOS
+  :PROPERTIES:
+  :CUSTOM_ID: fogos
+  :END:
+
+I started down the path of writing an OS, aptly named FogOS written in
+C++. Below are some of the notes that I created (well, those I've been
+able to find).
+
+** Memory map ideas
+   :PROPERTIES:
+   :CUSTOM_ID: memory-map-ideas
+   :END:
+
+#+BEGIN_EXAMPLE
+    Address       Size            Description
+    ---------     ---------       ---------------------------------
+    0000 0000     1 KB            Real-mode interrupt vector table
+    0000 0400     256 bytes       ROM-BIOS data
+    0000 0500     62.75 KB
+    0001 0000     256 KB          miscellaneous data
+    0005 0000     64 KB           Kernel stack at startup
+    0006 0000     512 bytes       Kernel IDT
+    0006 0200     64 KB           Kernel TSS's
+    0007 0200     512 bytes       GDT
+    0007 0400     63 KB
+    0008 0000     64 KB           Kernel read-only data
+    0009 0000     64 KB           Kernel heap
+    000a 0000     128 KB          Video memory
+    000c 0000     64 KB           Kernel ES
+    000d 0000     128 KB
+    000f 0000     64 KB           ROM-BIOS
+    --  1MB --
+    0010 0000     64 KB           Kernel code
+
+    0010 FFF0     Max end of kernel (65,520 bytes)
+
+    0050 0000     4 MB            Stack of physical memory pages
+    008F F000     4 KB            Page table staging area
+    0090 0000     4 KB            Kernel page directory
+    0090 1000     ???             Kernel page tables
+    ???? ????
+    00f0 0000     1 MB            Low DMA area
+    -- 16MB --
+    0100 0000     Unlimited       Available to applications
+#+END_EXAMPLE
+
+I've left some BIOS stuff as I found it.
+
+My boot loader loads my kernel at 1MB physical. Given the 16-bit
+real-mode\\
+nature of the boot code, it can't load anything beyond 1MB+65,520, so
+for\\
+the time being my kernel is limited to 65,520 bytes in size. Currently\\
+it's at 36,864 bytes. I know that one day, in the not-too-distant
+future,\\
+I'll have to do something about this. Maybe load it lower and then let
+it\\
+move itself? Or break the kernel up into two files: a small one that
+the\\
+boot loader loads, and that then loads the full kernel. I don't know.
+
+Some of these areas that I've reserved might not make sense. I pretty
+much\\
+drew up this map before I know what I was doing (ha! I still don't!)
+and\\
+so I made room for things like TSS's (plural) but I really won't know
+what\\
+I'll need there until I get to processes and task switching.
+
+I don't do any relocations. My kernel is linked to load at 1MB and the\\
+boot loader loads it directly there. Every time someone talks about\\
+relocations I wonder what I'm missing. Looking forward to finding out
+:-)
+
+** Architecture
+   :PROPERTIES:
+   :CUSTOM_ID: architecture
+   :END:
+
+My ideas for a microkernel. Looking back on FogOS I realize that the
+kernel was less interesting than the HAL. I spent a lot of time thinking
+about the HAL and it's base abstractions. I actually went down the path
+of implementing it based on the following image:
+
+#+CAPTION: FogOS Overview
+[[http://images.fogus.me/blog/fogos_overview.png]]
+
+You'll notice that I have a crypto service all the way down in the
+kernel. My thinking at the time was that I could gather interesting
+entropy at the kernel level. I recall reading some papers about this,
+but their titles have long since faded. Anyway, I added at least one
+hook for the entropy gathering and planned for more.
+
+** Booting
+   :PROPERTIES:
+   :CUSTOM_ID: booting
+   :END:
+
+Some bits of the implementation of the image above eventually booted!
+
+#+CAPTION: Boots
+[[http://images.fogus.me/blog/fogos_001_boot.png]]
+
+And then after adding the HAL, it was still able to boot!
+
+#+CAPTION: HAL Boots
+[[http://images.fogus.me/blog/fogos_002_boot.png]]
+
+... and that is where I left it.[fn:2]
+
+One day I shall return.
+
+[fn:1] Alexei Frounze is a hobby OSDev luminary. It's well-worth
+       studying his code if you're interested in creating your own OS.
+
+[fn:2] And this is where 99% of hobby OS practitioners leave it.
