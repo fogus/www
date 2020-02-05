@@ -26,4 +26,14 @@ Clojure as a language has a relatively simple core, thus allowing the language t
 - [[https://www.clojurescript.org][ClojureScript]] - Targets JavaScript runtimes by compiling to JavaScript source code.
 - [[https://github.com/clojure/clojure-clr][Clojure CLR]] - Runs on the Common Language Runtime (CLR), the execution engine of [[https://en.wikipedia.org/wiki/.NET_Framework][Microsoft's .Net Framework]].
 
+* Notable Clojure Books
 
+Clojure has grown since its initial release in 2007 and has motivated quite a collection of books. Below you'll find a list of those that I have personally read -- and
+in one case wrote. The order listed is the order that I suggest that the books be read -- YYMV.
+
+- [[https://www.amazon.com/Living-Clojure-Introduction-Training-Developers/dp/1491909048?tag=fogus-20][Living Clojure]] by Carin Meier - A great introduction to Clojure and its ecosystem, written in a fun and breezy style.
+- [[https://www.amazon.com/Programming-Clojure-Pragmatic-Programmers-Miller/dp/1680502468/?tag=fogus-20][Programming Clojure]] by Alex Miller, Stuart Halloway, and Aaron Bedra - The first Clojure book to hit the market by two of the core maintainers of the language itself.
+- [[http://www.joyofclojure.com][The Joy of Clojure]] by Michael Fogus (me) and Chris Houser - The /next/ book that dives a bit deeper than the other Clojure books on the market.
+- [[https://www.amazon.com/Elements-Clojure-Zachary-Tellman/dp/0359360580/?tag=fogus-20][Elements of Clojure]] by Zach Tellman - Similar to The Joy of Clojure but focuses more on the philosophy of composing systems in Clojure.
+- [[https://www.amazon.com/Clojure-Cookbook-Recipes-Functional-Programming/dp/1449366171/?tag=fogus-20][Clojure Recipes]] by Luke Vanderhart - A book of various tricks and tips for performing various tasks in Clojure.
+- [[https://www.amazon.com/Clojure-Programming-Practical-Lisp-World/dp/1449394701/?tag=fogus-20][Clojure Programming]] by Chas Emerick - In its time was the best introductory book on Clojure (IMO).
