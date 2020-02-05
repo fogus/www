@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2020-02-05 Wed 10:39 -->
+<!-- 2020-02-05 Wed 11:41 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Clojure</title>
@@ -234,9 +234,11 @@ for the JavaScript code in this tag.
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orged634b9">What is Clojure</a></li>
-<li><a href="#orgab42c6d">The Language</a></li>
-<li><a href="#org639728e">Notable Clojure Books</a></li>
+<li><a href="#org5cb17be">What is Clojure</a></li>
+<li><a href="#orga536567">The Language</a></li>
+<li><a href="#org6d3973e">Notable Clojure Books</a></li>
+<li><a href="#orgaad6714">Notable Clojure Blogs</a></li>
+<li><a href="#org8a66880">Programming Environments</a></li>
 </ul>
 </div>
 </div>
@@ -244,9 +246,9 @@ for the JavaScript code in this tag.
 <i>This is a collection of Clojure / ClojureScript information and links to resources. Please <a href="http://www.twitter.com/fogus">tweet</a> any suggestions, questions, changes, or corrections to me.</i>
 </p>
 
-<div id="outline-container-orged634b9" class="outline-2">
-<h2 id="orged634b9">What is Clojure</h2>
-<div class="outline-text-2" id="text-orged634b9">
+<div id="outline-container-org5cb17be" class="outline-2">
+<h2 id="org5cb17be">What is Clojure</h2>
+<div class="outline-text-2" id="text-org5cb17be">
 <p>
 <a href="http://www.clojure.org">Clojure</a> is an open-source functional programming language that runs on the <a href="https://en.wikipedia.org/wiki/Java_virtual_machine">Java Virtual Machine</a> in the <a href="http://en.wikipedia.org/wiki/Lisp_programming_language">Lisp</a> family of programming languages. <a href="https://www.clojurescript.org">ClojureScript</a> is a version of Clojure that
 compiles to JavaScript source code. Core features of both Clojure and ClojureScript include a rich set of immutable, persistent data structures, a code-as-data 
@@ -255,9 +257,9 @@ philosophical bent, and a powerful macro system.
 </div>
 </div>
 
-<div id="outline-container-orgab42c6d" class="outline-2">
-<h2 id="orgab42c6d">The Language</h2>
-<div class="outline-text-2" id="text-orgab42c6d">
+<div id="outline-container-orga536567" class="outline-2">
+<h2 id="orga536567">The Language</h2>
+<div class="outline-text-2" id="text-orga536567">
 <p>
 Clojure as a language has a relatively simple core, thus allowing the language to target different runtimes including, but not limited to, the following:
 </p>
@@ -270,12 +272,12 @@ Clojure as a language has a relatively simple core, thus allowing the language t
 </div>
 </div>
 
-<div id="outline-container-org639728e" class="outline-2">
-<h2 id="org639728e">Notable Clojure Books</h2>
-<div class="outline-text-2" id="text-org639728e">
+<div id="outline-container-org6d3973e" class="outline-2">
+<h2 id="org6d3973e">Notable Clojure Books</h2>
+<div class="outline-text-2" id="text-org6d3973e">
 <p>
-Clojure has grown since its initial release in 2007 and has motivated quite a collection of books. Below you'll find a list of those that I have personally read &#x2013; and
-in one case wrote. The order listed is the order that I suggest that the books be read &#x2013; YYMV.
+Clojure has grown since its initial release in 2007 and has motivated quite a collection of books. Below you'll find a list of those that I have personally read &#x2013;
+in one case wrote &#x2013; and would recommend as a fairly strong Clojure curriculum. 
 </p>
 
 <ul class="org-ul">
@@ -283,16 +285,48 @@ in one case wrote. The order listed is the order that I suggest that the books b
 <li><a href="https://www.amazon.com/Programming-Clojure-Pragmatic-Programmers-Miller/dp/1680502468/?tag=fogus-20">Programming Clojure</a> by Alex Miller, Stuart Halloway, and Aaron Bedra - The first Clojure book to hit the market by two of the core maintainers of the language itself.</li>
 <li><a href="http://www.joyofclojure.com">The Joy of Clojure</a> by Michael Fogus (me) and Chris Houser - The <i>next</i> book that dives a bit deeper than the other Clojure books on the market.</li>
 <li><a href="https://www.amazon.com/Elements-Clojure-Zachary-Tellman/dp/0359360580/?tag=fogus-20">Elements of Clojure</a> by Zach Tellman - Similar to The Joy of Clojure but focuses more on the philosophy of composing systems in Clojure.</li>
-<li><a href="https://www.amazon.com/Clojure-Cookbook-Recipes-Functional-Programming/dp/1449366171/?tag=fogus-20">Clojure Recipes</a> by Luke Vanderhart - A book of various tricks and tips for performing various tasks in Clojure.</li>
-<li><a href="https://www.amazon.com/Clojure-Programming-Practical-Lisp-World/dp/1449394701/?tag=fogus-20">Clojure Programming</a> by Chas Emerick - In its time was the best introductory book on Clojure (IMO).</li>
 </ul>
+
+<p>
+A notable addition to this list is <a href="https://www.braveclojure.com/clojure-for-the-brave-and-true/">Clojure for the Brave and True</a> by Daniel Higginbotham which is a book that's free to read online, but also has an option to purchase 
+the book in print. In that vein is the tutorial <a href="https://aphyr.com/tags/Clojure-from-the-ground-up">Clojure from the Ground Up</a> by Kyle Kingsbury that attempts to teach programming using Clojure. Either of these books could
+be read before the books above to gain a sense for the language and what is has to offer.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgaad6714" class="outline-2">
+<h2 id="orgaad6714">Notable Clojure Blogs</h2>
+<div class="outline-text-2" id="text-orgaad6714">
+<p>
+There are tons of blogs that focus on or touch on Clojure in a panoply of ways. A near comprehensive list is found at <a href="http://planet.clojure.in">Planet Clojure</a>, run by the inimitable Baishamapayan 
+Ghose. Below you'll find the blogs that I simply cannot bear to miss along with a blurb about each.
+</p>
+
+<ul class="org-ul">
+<li><a href="https://adambard.com/blog">Adam Bard makes websites</a> used to write great Clojure-related articles but he seems to have stopped blogging. The archive is filled with pure gold however.</li>
+<li><a href="https://stuartsierra.com">Digital Digressions</a> by Stuart Sierra has great Clojure content filled with wisdom gained from years in the trenches.</li>
+<li><a href="https://insideclojure.org/archive/">Inside Clojure</a> by Alex Miller gives an insider's view on the development and maintenance of Clojure itself.</li>
+<li><a href="https://lambdaisland.com/blog">Lambda Island Blog</a> is filled with practical and or fun examples of Clojure / ClojureScript code.</li>
+<li><a href="http://blog.fogus.me">Send More Paramedics</a> is my personal blog that I occassionally populate with Clojure content, though it's not strictly a Clojure blog.</li>
+<li><a href="http://gigasquidsoftware.com">Squid's Blog</a> is run by Carin Meier and touches on a bunch of Clojure-related topics including AI, ML, stories, and NLP.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org8a66880" class="outline-2">
+<h2 id="org8a66880">Programming Environments</h2>
+<div class="outline-text-2" id="text-org8a66880">
+<p>
+TODO
+</p>
 </div>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="date">Date: 2020-02-05 Wed 00:00</p>
 <p class="author">Author: Fogus</p>
-<p class="date">Created: 2020-02-05 Wed 10:39</p>
+<p class="date">Created: 2020-02-05 Wed 11:41</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>

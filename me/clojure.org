@@ -28,12 +28,31 @@ Clojure as a language has a relatively simple core, thus allowing the language t
 
 * Notable Clojure Books
 
-Clojure has grown since its initial release in 2007 and has motivated quite a collection of books. Below you'll find a list of those that I have personally read -- and
-in one case wrote. The order listed is the order that I suggest that the books be read -- YYMV.
+Clojure has grown since its initial release in 2007 and has motivated quite a collection of books. Below you'll find a list of those that I have personally read --
+in one case wrote -- and would recommend as a fairly strong Clojure curriculum. 
 
 - [[https://www.amazon.com/Living-Clojure-Introduction-Training-Developers/dp/1491909048?tag=fogus-20][Living Clojure]] by Carin Meier - A great introduction to Clojure and its ecosystem, written in a fun and breezy style.
 - [[https://www.amazon.com/Programming-Clojure-Pragmatic-Programmers-Miller/dp/1680502468/?tag=fogus-20][Programming Clojure]] by Alex Miller, Stuart Halloway, and Aaron Bedra - The first Clojure book to hit the market by two of the core maintainers of the language itself.
 - [[http://www.joyofclojure.com][The Joy of Clojure]] by Michael Fogus (me) and Chris Houser - The /next/ book that dives a bit deeper than the other Clojure books on the market.
 - [[https://www.amazon.com/Elements-Clojure-Zachary-Tellman/dp/0359360580/?tag=fogus-20][Elements of Clojure]] by Zach Tellman - Similar to The Joy of Clojure but focuses more on the philosophy of composing systems in Clojure.
-- [[https://www.amazon.com/Clojure-Cookbook-Recipes-Functional-Programming/dp/1449366171/?tag=fogus-20][Clojure Recipes]] by Luke Vanderhart - A book of various tricks and tips for performing various tasks in Clojure.
-- [[https://www.amazon.com/Clojure-Programming-Practical-Lisp-World/dp/1449394701/?tag=fogus-20][Clojure Programming]] by Chas Emerick - In its time was the best introductory book on Clojure (IMO).
+
+A notable addition to this list is [[https://www.braveclojure.com/clojure-for-the-brave-and-true/][Clojure for the Brave and True]] by Daniel Higginbotham which is a book that's free to read online, but also has an option to purchase 
+the book in print. In that vein is the tutorial [[https://aphyr.com/tags/Clojure-from-the-ground-up][Clojure from the Ground Up]] by Kyle Kingsbury that attempts to teach programming using Clojure. Either of these books could
+be read before the books above to gain a sense for the language and what is has to offer.
+
+* Notable Clojure Blogs
+
+There are tons of blogs that focus on or touch on Clojure in a panoply of ways. A near comprehensive list is found at [[http://planet.clojure.in][Planet Clojure]], run by the inimitable Baishamapayan 
+Ghose. Below you'll find the blogs that I simply cannot bear to miss along with a blurb about each.
+
+- [[https://adambard.com/blog][Adam Bard makes websites]] used to write great Clojure-related articles but he seems to have stopped blogging. The archive is filled with pure gold however.
+- [[https://stuartsierra.com][Digital Digressions]] by Stuart Sierra has great Clojure content filled with wisdom gained from years in the trenches.
+- [[https://insideclojure.org/archive/][Inside Clojure]] by Alex Miller gives an insider's view on the development and maintenance of Clojure itself.
+- [[https://lambdaisland.com/blog][Lambda Island Blog]] is filled with practical and or fun examples of Clojure / ClojureScript code.
+- [[http://blog.fogus.me][Send More Paramedics]] is my personal blog that I occassionally populate with Clojure content, though it's not strictly a Clojure blog.
+- [[http://gigasquidsoftware.com][Squid's Blog]] is run by Carin Meier and touches on a bunch of Clojure-related topics including AI, ML, stories, and NLP.
+
+* Programming Environments
+
+TODO
+
