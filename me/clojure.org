@@ -2,8 +2,28 @@
 #+AUTHOR:    Fogus
 #+DATE:      <2020-02-05 Wed>
 #+LANGUAGE:            en
-#+OPTIONS:             H:3 num:nil toc:2 \n:nil
+#+OPTIONS:             H:3 num:nil toc:1 \n:nil
 #+OPTIONS:             TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
 #+INFOJS_OPT:          view:nil toc:nil ltoc:t mouse:underline buttons:0 path:http://orgmode.org/org-info.js
 #+EXPORT_SELECT_TAGS:  export
 #+EXPORT_EXCLUDE_TAGS: noexport
+
+/This is a collection of Clojure / ClojureScript information and links to resources. Please [[http://www.twitter.com/fogus][tweet]] any suggestions, questions, changes, or corrections to me./
+
+ # This page is inspired by the old http://www.lispmachine.net site.
+
+* What is Clojure
+
+[[http://www.clojure.org][Clojure]] is an open-source functional programming language that runs on the [[https://en.wikipedia.org/wiki/Java_virtual_machine][Java Virtual Machine]] in the [[http://en.wikipedia.org/wiki/Lisp_programming_language][Lisp]] family of programming languages. [[https://www.clojurescript.org][ClojureScript]] is a version of Clojure that
+compiles to JavaScript source code. Core features of both Clojure and ClojureScript include a rich set of immutable, persistent data structures, a code-as-data 
+philosophical bent, and a powerful macro system. 
+
+* The Language
+
+Clojure as a language has a relatively simple core, thus allowing the language to target different runtimes including, but not limited to, the following:
+
+- [[http://www.clojure.org][Clojure]] - Runs on the Java Virtual Machine and interoperates with Java libraries.
+- [[https://www.clojurescript.org][ClojureScript]] - Targets JavaScript runtimes by compiling to JavaScript source code.
+- [[https://github.com/clojure/clojure-clr][Clojure CLR]] - Runs on the Common Language Runtime (CLR), the execution engine of [[https://en.wikipedia.org/wiki/.NET_Framework][Microsoft's .Net Framework]].
+
+
