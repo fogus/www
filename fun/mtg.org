@@ -1,0 +1,61 @@
+#+TITLE:     Magic: The Gathering
+#+AUTHOR:    Fogus
+#+DATE:      <2020-02-05 Wed>
+#+LANGUAGE:            en
+#+OPTIONS:             H:3 num:nil toc:1 \n:nil
+#+OPTIONS:             TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+INFOJS_OPT:          view:nil toc:nil ltoc:t mouse:underline buttons:0 path:http://orgmode.org/org-info.js
+#+EXPORT_SELECT_TAGS:  export
+#+EXPORT_EXCLUDE_TAGS: noexport
+
+I'm a long-time MtG player (from the beginning) who for most of my time has enjoyed constructed play over every other modes of play. From the
+beginning I've mostly enjoyed tempo and/or control decks as I find that they provide the most opportunity for depth of play, even when they're 
+not the strongest cards in whichever format I find myself. I prefer to play the same decks over and over rather than change in order to gain a 
+deep understanding of the patterns that the deck presents.
+
+Below you'll find links to the decks that I play in every format that I happen to play.
+
+* Commander
+
+- Breya
+- Nin, the Pain Artist
+
+* Canadian Highlander
+
+- 5C Control
+
+* Standard (as of <2020-02-11 Tue>)
+
+- U/W Control
+
+* Historic (as of <2020-02-11 Tue>)
+
+- Mono-Blue Tempo
+
+* Pioneer (as of <2020-02-11 Tue>)
+
+- U/W Control
+- U/W Spirits
+
+* Modern (as of <2020-02-11 Tue>)
+
+- U/B Fae Narset
+- U/W Spirits
+
+* Premodern
+
+- 4C Control
+
+* Legacy
+
+- 5C Control
+
+* 93/94 
+
+- Mono-Black Control
+- U/W Stasis
+
+* Alpha 40
+
+- Lich
+
