@@ -1,11 +1,14 @@
-#+TITLE:     93/94 Deadguy
+#+TITLE:     An Interview with Rich Hickey in 2010, annotated in 2020
 #+AUTHOR:    Fogus
 #+DATE:      <2020-02-11 Wed>
 #+LANGUAGE:            en
+#+OPTIONS:             H:3 num:nil toc:nil \n:nil
+
+/This interview was conducted circa 2010 for a now defunct tech zine called [[https://web.archive.org/web/20100301165120/http://www.codequarterly.com/][Code Quarterly]] run by [[https://twitter.com/peterseibel][Peter Seibel]]. I've taken to annotate this interview using nearly 10-years of hindsight about how Clojure and indeed the industry has changed./
 
 * An Interview with Rich Hickey
 
-*(/) What drew you to programming?*
+*What drew you to programming?*
 
 #+BEGIN_QUOTE
   I was running a recording studio and got a computer for it. I was
@@ -15,13 +18,13 @@
   software. I was immediately hooked.
 #+END_QUOTE
 
-*(/) Q: You play guitar correct?*
+*Q: You play guitar correct?*
 
 #+BEGIN_QUOTE
   Yes, I was a music composition major in college.
 #+END_QUOTE
 
-*(/) I've often found that great programmers are often skilled
+*I've often found that great programmers are often skilled
 musicians. Do you think that musical art is related to the art of
 programming?*
 
@@ -36,7 +39,7 @@ programming?*
   composition, and has completely displaced it.
 #+END_QUOTE
 
-*(/) What was the first interesting program that you wrote?*
+*What was the first interesting program that you wrote?*
 
 #+BEGIN_QUOTE
   An early program I wrote that got me excited about the possibilities
@@ -48,7 +51,7 @@ programming?*
   us to see and discover things that analysis and calculation couldn't.
 #+END_QUOTE
 
-*(/) What do you do to improve your skills as a programmer? Do you have
+*What do you do to improve your skills as a programmer? Do you have
 certain exercises or pet projects that you use?*\\
 *If so, do you mind sharing some details about them?*
 
@@ -58,7 +61,7 @@ certain exercises or pet projects that you use?*\\
   to spend more time thinking about the problem than I do typing it in.
 #+END_QUOTE
 
-*(/) Speaking of reading; you once created a "Clojure Bookshelf" list on
+*Speaking of reading; you once created a "Clojure Bookshelf" list on
 Amazon that was very popular. Of those books listed, are there any you
 think every programmer should read?*
 
@@ -71,7 +74,7 @@ think every programmer should read?*
   part of people with whom I work.
 #+END_QUOTE
 
-*(/) Taking a more pointed approach then, let's talk about some of your
+*Taking a more pointed approach then, let's talk about some of your
 choices for the Clojure Bookshelf list. For example, on the surface
 Clojure seems to be very different from Ruby, yet you list "Programming
 Ruby 1.9" by Thomas, Fowler, and Hunt. How did that book, and Ruby in
@@ -83,7 +86,7 @@ general, influence the design of Clojure?*
   and yet another object system. OTOH they set a high bar for concision.
 #+END_QUOTE
 
-*(/) Do you think Ruby or Python has taken the ALGOL-derived syntax to
+*Do you think Ruby or Python has taken the ALGOL-derived syntax to
 the limit of its concision?*
 
 #+BEGIN_QUOTE
@@ -91,7 +94,7 @@ the limit of its concision?*
   concision.
 #+END_QUOTE
 
-*(/) Let's explore that a little. There are the complexities of the
+*Let's explore that a little. There are the complexities of the
 problem at hand, which are mostly language independent. There are
 complexities involved with picking a language not particularly suited to
 a problem space. And there are incidental complexities imposed on the
@@ -126,7 +129,7 @@ complexities?*
   more useful?
 #+END_QUOTE
 
-*(/) Indeed. Such as focusing on the complexities of the problem at hand
+*Indeed. Such as focusing on the complexities of the problem at hand
 perhaps. So once incidental complexities have been reduce (if not
 eliminated) how can Clojure help me to directly address solving the
 problem at hand? For example, the idealized object-oriented paradigm is
@@ -170,7 +173,7 @@ how can we structure our code for reuse?*
   (e.g. java.io).
 #+END_QUOTE
 
-*(/) Are there any domains where this abstraction-oriented approach in
+*Are there any domains where this abstraction-oriented approach in
 general, and Clojure in particular, not sutable?*
 
 #+BEGIN_QUOTE
@@ -194,7 +197,7 @@ general, and Clojure in particular, not sutable?*
   pursue.
 #+END_QUOTE
 
-*(/) In an old (and influential by the way) paper, "Callbacks in C++
+*In an old (and influential by the way) paper, "Callbacks in C++
 Using Template Functors" you write favorably about C++, OOP, and static
 typing. What happened that changed your mind?*
 
@@ -222,7 +225,7 @@ typing. What happened that changed your mind?*
   practical, for me.
 #+END_QUOTE
 
-*(/) In an email exchange you mentioned that during the process of
+*In an email exchange you mentioned that during the process of
 learning Lisp you experienced joy (a motivation for the book title BTW).
 Can you elaborate on that feeling and why it seems that Lisp in general
 fosters such a feeling in so many others?*
@@ -237,13 +240,13 @@ fosters such a feeling in so many others?*
   accompanies that mental state of focus.
 #+END_QUOTE
 
-*(/) What programming languages have you used professionally?*
+*What programming languages have you used professionally?*
 
 #+BEGIN_QUOTE
   Mainly C, C++, Java, C#, Common Lisp, Clojure
 #+END_QUOTE
 
-*(/) What is your second favorite programming language? Why?*
+*What is your second favorite programming language? Why?*
 
 #+BEGIN_QUOTE
   If I had been more satisfied with any of those I wouldn't have written
@@ -252,7 +255,7 @@ fosters such a feeling in so many others?*
   more free time, I'd spend it with Haskell.
 #+END_QUOTE
 
-*(/) I have a theory that the excitement surrounding Clojure is in part
+*I have a theory that the excitement surrounding Clojure is in part
 due to a general open-mindedness fostered by Paul Graham's original Lisp
 essays and the popularity of Python and Ruby. What do you attribute to
 Clojure's success thus far?*
@@ -274,7 +277,7 @@ Clojure's success thus far?*
   there too.
 #+END_QUOTE
 
-*(/) I think that Clojure's community is quite unique, and you've
+*I think that Clojure's community is quite unique, and you've
 personally fostered and set its tone. How much does a language's
 community contribute to its success?*
 
@@ -286,7 +289,7 @@ community contribute to its success?*
   community than to vent their emotions or prove themselves right.
 #+END_QUOTE
 
-*(/) Can you talk briefly about the Lisp-related projects leading up to
+*Can you talk briefly about the Lisp-related projects leading up to
 the creation of Clojure? Specifically, what were the goals of dotLisp,
 Foil, and Lisplets?*
 
@@ -314,7 +317,7 @@ Foil, and Lisplets?*
   abundant Java libs from Lisp.
 #+END_QUOTE
 
-*(/) What lessons did you take away from them (positive and negative)
+*What lessons did you take away from them (positive and negative)
 when creating Clojure?*
 
 #+BEGIN_QUOTE
@@ -325,7 +328,7 @@ when creating Clojure?*
   with the host. The 'Foreign' part of FFI has to go.
 #+END_QUOTE
 
-*(/) Clojure was once in parallel development on both the JVM and the
+*Clojure was once in parallel development on both the JVM and the
 CLR, why did you eventually decide to focus in on the former?*
 
 #+BEGIN_QUOTE
@@ -333,7 +336,7 @@ CLR, why did you eventually decide to focus in on the former?*
   as much.
 #+END_QUOTE
 
-*(/) Referring back to your previous comment regarding the negative
+*Referring back to your previous comment regarding the negative
 aspect of influences, I'm led to wonder if the inclusion of "Prolog
 Programming for Artificial Intelligence" by Ivan Bratko to your
 Bookshelf was of this variety. Given that you've mentioned the common
@@ -352,7 +355,7 @@ negatively influenced Clojure?*
   a positive influence, if somewhat under-delivered upon as of yet.
 #+END_QUOTE
 
-*(/) I have studied the Clojure Datalog implementation and am saddened
+*I have studied the Clojure Datalog implementation and am saddened
 that it does not get a lot of exposure. Do you think that there is a
 place for it (or some derivative) as the basis for that "logic system"?*
 
@@ -360,7 +363,7 @@ place for it (or some derivative) as the basis for that "logic system"?*
   Yes, definitely. I like Datalog a lot.
 #+END_QUOTE
 
-*(/) To what extent should a programming language be designed to prevent
+*To what extent should a programming language be designed to prevent
 programmers from making mistakes/writing bad code?*
 
 #+BEGIN_QUOTE
@@ -373,7 +376,7 @@ programmers from making mistakes/writing bad code?*
   mistakes or writing bad code.
 #+END_QUOTE
 
-*(/) Following that idea -- some people are surprised by the fact that
+*Following that idea -- some people are surprised by the fact that
 Clojure does not engage in data hiding encapsulation on its types. Why
 did you decide to forego data hiding?*
 
@@ -399,7 +402,7 @@ did you decide to forego data hiding?*
   they are never going to be good programmers.
 #+END_QUOTE
 
-*(/) Where can we draw the line between sensibilities and language
+*Where can we draw the line between sensibilities and language
 philosophy? That is, could the same be said for immutability in that we
 could simply say that programmers should follow a "convention of
 immutability" instead of it being enforced by the language?*
@@ -422,7 +425,7 @@ immutability" instead of it being enforced by the language?*
   and simple, vs. what it makes possible/impossible.
 #+END_QUOTE
 
-*(/) What would you say to people who claim that Clojure is not a "real
+*What would you say to people who claim that Clojure is not a "real
 Lisp"?*
 
 #+BEGIN_QUOTE
@@ -432,7 +435,7 @@ Lisp"?*
   there'd be little reason for it to exist.
 #+END_QUOTE
 
-*(/) Referring back to your previous statement about Clojure allowing
+*Referring back to your previous statement about Clojure allowing
 Lisp to be sneaked into traditional shops -- how does Clojure differ in
 this respect from other JVM-based Lisps?*
 
@@ -440,7 +443,7 @@ this respect from other JVM-based Lisps?*
   Not much. You can sneak in almost any JVM language similarly.
 #+END_QUOTE
 
-*(/) You've said you've been surprised by how popular Clojure has
+*You've said you've been surprised by how popular Clojure has
 become, but on the other hand didn't you bet a couple year's of your
 life with little or no other income to produce the first version?*
 
@@ -459,7 +462,7 @@ life with little or no other income to produce the first version?*
   Clojure would not exist, but I don't regret having invested in it.
 #+END_QUOTE
 
-*(/) You released a series of videos introducing Clojure that have
+*You released a series of videos introducing Clojure that have
 generated serious buzz around the language. In my opinion they are a
 brilliant marketing strategy, especially for a young language. Were you
 intentionally creating those videos as marketing material, or was that
@@ -477,7 +480,7 @@ simply a side-effect of a purely informational pursuit?*
   more efficient than talking to 50-100 people at a time.
 #+END_QUOTE
 
-*(/) As someone who only knows Haskell enough to read the papers,
+*As someone who only knows Haskell enough to read the papers,
 Clojure appears to be influenced by it substantially. From the names and
 operation of core functions (e.g. take, drop, iterate, repeat, etc.) to
 its protocols facility, there is a lot in Clojure that a Haskell
@@ -508,7 +511,7 @@ Clojure both positive and negative?*
   than to combine them as in typical OO.
 #+END_QUOTE
 
-*(/) It's clear that protocols are influenced by CLOS, however while
+*It's clear that protocols are influenced by CLOS, however while
 CLOS allows you to build cyclopean class hierarchies Clojure's types and
 protocols do not. Can you comment on the problems associated with class
 hierarchies and how protocols address them?*
@@ -537,7 +540,7 @@ hierarchies and how protocols address them?*
   be used with care.
 #+END_QUOTE
 
-*(/) Protocols and datatypes provide the basis for a bootstrapped
+*Protocols and datatypes provide the basis for a bootstrapped
 Clojure, how important is it to implement Clojure in Clojure?*
 
 #+BEGIN_QUOTE
@@ -553,7 +556,7 @@ Clojure, how important is it to implement Clojure in Clojure?*
   bootstrap would make ports easier.
 #+END_QUOTE
 
-*(/) The target host would naturally define the subset of Clojure
+*The target host would naturally define the subset of Clojure
 functionality that is feasible for implementation. That being the case,
 how do you plan to unify the disparity between ports?*
 
@@ -571,7 +574,7 @@ how do you plan to unify the disparity between ports?*
   Javascript host might be.
 #+END_QUOTE
 
-*(/) Will you formally define a "Clojure Kernel" as part of the
+*Will you formally define a "Clojure Kernel" as part of the
 Clojure-in-Clojure process?*
 
 #+BEGIN_QUOTE
@@ -580,14 +583,14 @@ Clojure-in-Clojure process?*
   few hosts under your belt seems folly.
 #+END_QUOTE
 
-*(/) Favorite tools? Editor? Version control? Debugger? Drawing tool?
+*Favorite tools? Editor? Version control? Debugger? Drawing tool?
 IDE?*
 
 #+BEGIN_QUOTE
   NoteBook, OmniGraffle, hammock.
 #+END_QUOTE
 
-*(/) You have been known to speak out against TDD. Do you mind
+*You have been known to speak out against TDD. Do you mind
 elaborating on your position?*
 
 #+BEGIN_QUOTE
@@ -604,7 +607,7 @@ elaborating on your position?*
   design with a complete test suite is still a bad design.
 #+END_QUOTE
 
-*(/) Clojure provides function constraints via pre- and post-condition
+*Clojure provides function constraints via pre- and post-condition
 checks that provide a subset of Eiffel's contracts programming. Do
 constraints eliminate the need for, or complement unit testing?*
 
@@ -614,7 +617,7 @@ constraints eliminate the need for, or complement unit testing?*
   can (optionally) run in the context of the program.
 #+END_QUOTE
 
-*(/) It seems that your decision to include features in Clojure is
+*It seems that your decision to include features in Clojure is
 orthogonal to their implementation and inherent complexities. For
 example, it seemed that streams were right on the cusp of being
 integrated but was discarded outright. Likewise, scopes are relatively
@@ -647,7 +650,7 @@ ultimate criteria for adding new features to Clojure?*
   features.
 #+END_QUOTE
 
-*(/) I've spoken with a few of your former co-workers and they described
+*I've spoken with a few of your former co-workers and they described
 you as a trouble-shooting and debugging master. How do you debug? Is
 there a fundamental difference between debugging imperative/OO code
 versus Clojure code?*
@@ -668,7 +671,7 @@ versus Clojure code?*
   computer, because you have a hypothesis that uniquely fits the facts.
 #+END_QUOTE
 
-*(/) Is there a fundamental difference between debugging imperative/OO
+*Is there a fundamental difference between debugging imperative/OO
 code versus Clojure code?*
 
 #+BEGIN_QUOTE
@@ -676,7 +679,7 @@ code versus Clojure code?*
   much easier because of the better locality.
 #+END_QUOTE
 
-*(/) Clojure's threaded concurrency story is very solid with numerous
+*Clojure's threaded concurrency story is very solid with numerous
 flavors of reference types providing different usage scenarios. Do you
 feel satisfied with Clojure's current concurrency offerings, or do you
 have plans to expand on the current reference model, or perhaps venture
@@ -700,7 +703,7 @@ into distributed concurrency?*
   of message queues instead.
 #+END_QUOTE
 
-*(/) While there are also primitives supporting parallelism, Clojure's
+*While there are also primitives supporting parallelism, Clojure's
 story here has a lot of room for expansion. Do you plan to include
 higher-level parallel libraries such as those for fork-join or
 dataflow?*
@@ -711,7 +714,7 @@ dataflow?*
   structures.
 #+END_QUOTE
 
-*(/) Are high-level languages harder to optimize?*
+*Are high-level languages harder to optimize?*
 
 #+BEGIN_QUOTE
   I have no idea. What I do know is that, as we get to more
@@ -722,7 +725,7 @@ dataflow?*
   optimization.
 #+END_QUOTE
 
-*(/) You've cited the philosophy of Alfred North Whitehead---in
+*You've cited the philosophy of Alfred North Whitehead---in
 particular his works Process and Reality and Science and the Modern
 World ---in explaining Clojure's notion of state, time, and identity.
 What can we, as programmers, learn from Whitehead specifically and
