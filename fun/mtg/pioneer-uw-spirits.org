@@ -1,4 +1,4 @@
-#+TITLE:     Canadian Highlander - 5 Color Control
+#+TITLE:     Pioneer - U/W Spirits
 #+AUTHOR:    Fogus
 #+DATE:      <2020-02-11 Wed>
 #+LANGUAGE:            en
@@ -8,10 +8,7 @@
 #+EXPORT_SELECT_TAGS:  export
 #+EXPORT_EXCLUDE_TAGS: noexport
 
-- Flashback package
-- Oath creatures
-
-[[./images/canlander-5cc.jpg]]
+[[./images/pioneer-uw-spirits.jpg]]
 
 * Changes
 
