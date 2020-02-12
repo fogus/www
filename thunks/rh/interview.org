@@ -4,21 +4,21 @@
 #+LANGUAGE:            en
 #+OPTIONS:             H:3 num:nil toc:nil \n:nil
 
-/This interview was conducted circa 2010 for a now defunct tech zine called [[https://web.archive.org/web/20100301165120/http://www.codequarterly.com/][Code Quarterly]] run by [[https://twitter.com/peterseibel][Peter Seibel]]. I've taken to annotate this interview using nearly 10-years of hindsight about how Clojure and indeed the industry has changed./
+/This interview[fn:korean] was conducted circa 2010 for a now defunct tech zine called [[https://web.archive.org/web/20100301165120/http://www.codequarterly.com/][Code Quarterly]] run by [[https://twitter.com/peterseibel][Peter Seibel]]. I've taken to annotate this interview using nearly 10-years of hindsight about how Clojure and indeed the industry has changed./
 
 * An Interview with Rich Hickey
 
 *What drew you to programming?*
 
 #+BEGIN_QUOTE
-  I was running a recording studio and got a computer for it. I was
+  I was running a recording studio[fn:guitar] and got a computer for it. I was
   intrigued by what it could do (this was in the relatively early days
   of MIDI), and filled with the possibilities of what it might do. So I
   taught myself C and assembly language and started writing music
   software. I was immediately hooked.
 #+END_QUOTE
 
-*Q: You play guitar correct?*
+*You play guitar correct?*
 
 #+BEGIN_QUOTE
   Yes, I was a music composition major in college.
@@ -748,3 +748,7 @@ of software developers?*
   systems, as programming constructs, yes, I guess any broader
   understanding of the world could benefit programmers.
 #+END_QUOTE
+
+[fn:korean] This interview (sans annotations) was also translated to Koren at https://harfangk.github.io/2017/12/08/rich-hickey-interview-from-codequarterly-ko.html
+
+[fn:guitar] Rich is a great guitar player and I've had the good fortune to jam with him a few times. 
