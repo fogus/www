@@ -1,4 +1,4 @@
-#+TITLE:     Premodern - 4 Color Control
+#+TITLE:     Premodern - Stasis
 #+AUTHOR:    Fogus
 #+DATE:      <2020-02-11 Wed>
 #+LANGUAGE:            en
@@ -8,7 +8,7 @@
 #+EXPORT_SELECT_TAGS:  export
 #+EXPORT_EXCLUDE_TAGS: noexport
 
-[[./images/premodern-4cc.jpg]]
+[[./images/premodern-stasis.jpg]]
 
 * Changes
 
