@@ -1,0 +1,15 @@
+#+TITLE:     Pauper Snow-Go
+#+AUTHOR:    Fogus
+#+DATE:      <2020-02-18 Wed>
+#+LANGUAGE:            en
+#+OPTIONS:             H:3 num:nil toc:1 \n:nil
+#+OPTIONS:             TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+INFOJS_OPT:          view:nil toc:nil ltoc:t mouse:underline buttons:0 path:http://orgmode.org/org-info.js
+#+EXPORT_SELECT_TAGS:  export
+#+EXPORT_EXCLUDE_TAGS: noexport
+
+[[./images/snow-go.jpg]]
+
+* Changes
+
+- <2020-02-18 Tue> initial image
