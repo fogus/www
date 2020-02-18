@@ -8,6 +8,11 @@
 #+EXPORT_SELECT_TAGS:  export
 #+EXPORT_EXCLUDE_TAGS: noexport
 
+I used to run a fairly vanilla mono-blue faeries deck with counters and tempo plays. However, over time the faeries decks 
+have become relatively weak compared to the rest of the field. Therefore, I'm now running a blue/black faeries control list with
+a transformational sidebaord that turns it into a narset lock strategy. If I ever wanted to play this deck seriously then I'd go
+a different direction but for now it's like playing two decks in one.
+
 * Mainboard
 
 [[./images/fae.jpg]]
