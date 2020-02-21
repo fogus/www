@@ -1,4 +1,21 @@
 [{:tile-colours "Yellow / Green / Brown / Grey",
+  :privates "3 (1830 style Auction)",
+  :release-date "2005",
+  :corporations "2",
+  :designed-by "Antonio Leal",
+  :bank "$3,720",
+  :title "1800",
+  :map-size "9 hexes (13 total)",
+  :status "In print",
+  :link "http://www.18xx.net/1800/1800.htm",
+  :off-board "Three steps (2-3, 4-5, E)",
+  :stock-market "2D (Square)",
+  :location "Rocky Mountains, USA",
+  :produced-by "Antonio Leal",
+  :links
+  [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}
+   {:title "Tiles", :url "http://www.18xx.net/tiles/1800.htm"}]}
+ {:tile-colours "Yellow / Green / Brown / Grey",
   :privates "6",
   :release-date "October 2005",
   :corporations "8 major, 11 minor",
