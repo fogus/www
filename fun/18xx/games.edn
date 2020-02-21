@@ -155,13 +155,13 @@
    {:title "Tiles", :url "http://www.18xx.net/tiles/1829.htm"}
    {:title "Availability", :url "http://www.18xx.net/1829/1829a.htm"}
    {:title "Maps", :url "http://www.18xx.net/1829/1829m.htm"}]}
- {:tile-colours "Yellow / Green / Brown",
+ {:title "1830",
+  :tile-colours "Yellow / Green / Brown",
   :privates "6 (Auction 1830 style)",
   :release-date "1986",
   :corporations "8",
   :designed-by "Francis Tresham (UK) / Bruce Shelley (US)",
   :bank "$12,000",
-  :title "1830",
   :map-size "74 hexes (93 total)",
   :status "Out of Print",
   :link "http://www.18xx.net/1830/1830.htm",
@@ -180,7 +180,11 @@
    {:title "City List", :url "http://www.18xx.net/1830/1830n.htm"}
    {:title "Strategy", :url "http://www.18xx.net/1830/1830c.htm"}
    {:title "Summary", :url "http://www.18xx.net/1830/1830summ.htm"}
-   {:title "Map", :url "http://www.18xx.net/1830/1830m.gif"}]}
+   {:title "Map", :url "http://www.18xx.net/1830/1830m.gif"}]
+  :description "1830, set in the northeastern United States, is probably the best-known game of the series, though not the earliest. 1830 covers the period from the beginnings of railroading in the United States to the post-WWII introduction of Diesels, which was the high water mark of American railroading. Of all the series, 1830 has had the most staying power. Published in 1986, it is still possible to discover new strategies (or at least tactics) after many years of play. 1830 should be considered a game for the moderately experienced player, as the ruthless stock manipulations are liable to be a turnoff for the novice.
+1830 is the premier game of stock manipulation. Although it is very balanced in the sense that railroad management (laying track and establishing good runs) and technology management (getting the right trains on the right companies) are as significant as stock management, a significant element of strategy consists of driving down other people's stock values during the stock round, while trying to ensure that you do not suffer the same. 1830 was the first published game in the series to have a dynamic stock market and to some degree the dominant nature of stock manipulation is a product of this pioneering aspect.
+
+Companies are fully funded when floated, and can start at any of six initial values, as well as in any order. This was also a great innovation from the predecessor games, where companies started in a fixed order at predetermined initial values. 1830 also pioneered the concept of special powers for private companies, and allowed them to be purchased by major companies in order to simulate the 'looting aspect of the rather chaotic American stock market."}
  {:tile-colours "Yellow / Green / Blue / Red",
   :privates "None",
   :release-date "1997",
