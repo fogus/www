@@ -1,0 +1,1816 @@
+[{:title "1824",
+  :link "http://www.18xx.net/1824/1824.htm",
+  :links
+  [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}
+   {:title "Rules",
+    :url
+    "http://www.18xx.net/1824/http://www.ohley.de/english/1824/1824-rules.pdf"}
+   {:title "Tiles", :url "http://www.18xx.net/tiles/1824.htm"}
+   {:title "Pictures",
+    :url
+    "http://www.18xx.net/1824/http://www.ohley.de/1824/titelblatt.JPG"}
+   {:title "Availability",
+    :url
+    "http://www.18xx.net/1824/http://www.ohley.de/english/preise.html"}],
+  :info
+  {:designed-by "Leonhard Orgler (Austria), Helmut Ohley (Germany)",
+   :produced-by "Double-O Games",
+   :status "In Print",
+   :release-date "October 2005"},
+  :metadata
+  {:location "Austria-Hungary",
+   :corporations "8 major, 11 minor",
+   :privates "6",
+   :map-size "88 hexes (103 total)",
+   :off-board "Four steps (2 / 3-4 / 5-6 / 8-10)",
+   :bank "12,000 Gulden",
+   :tile-colours "Yellow / Green / Brown / Grey",
+   :stock-market "2D (Square)"}}
+ {:title "1825",
+  :link "http://www.18xx.net/1825/1825.htm",
+  :links
+  [{:title "FAQ", :url "http://www.18xx.net/1825/1825f.htm"}
+   {:title "Trainspotting", :url "http://www.18xx.net/1825/1825t.htm"}
+   {:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}
+   {:title "Pictures", :url "http://www.18xx.net/1825/1825p.htm"}
+   {:title "Tiles", :url "http://www.18xx.net/tiles/1825.htm"}
+   {:title "Availability", :url "http://www.18xx.net/1825/1825a.htm"}
+   {:title "Reviews", :url "http://www.18xx.net/1825/1825rev.htm"}
+   {:title "City List", :url "http://www.18xx.net/1825/1825n.htm"}
+   {:title "Comment", :url "http://www.18xx.net/1825/1825c.htm"}
+   {:title "Summary", :url "http://www.18xx.net/1825/1825summ.htm"}],
+  :info
+  {:designed-by "Francis Tresham (UK)",
+   :produced-by "Hartland Trefoil Ltd (UK)",
+   :status "In Print",
+   :release-date "1995"},
+  :metadata
+  {:location "South Eastern England",
+   :corporations "6 (fixed sequence)",
+   :privates "4 (random distribution), no special powers",
+   :map-size "59 hexes (68 total)",
+   :off-board "No red off-board areas",
+   :bank "£5,000",
+   :tile-colours "Yellow / Green / Brown",
+   :stock-market "1D (Linear)"}}
+ {:title "1826",
+  :link "http://www.18xx.net/1826/1826.htm",
+  :links
+  [{:title "FAQ", :url "http://www.18xx.net/1826/1826f.htm"}
+   {:title "Trainspotting", :url "http://www.18xx.net/1826/1826t.htm"}
+   {:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}
+   {:title "Rules", :url "http://www.18xx.net/1826/1826rule.htm"}
+   {:title "Tiles", :url "http://www.18xx.net/tiles/1826.htm"}
+   {:title "Pictures", :url "http://www.18xx.net/1826/1826p.htm"}
+   {:title "Reviews", :url "http://www.18xx.net/1826/1826rev.htm"}
+   {:title "Availability", :url "http://www.18xx.net/1826/1826a.htm"}
+   {:title "Release Note", :url "http://www.18xx.net/1826/1826r.htm"}
+   {:title "City List", :url "http://www.18xx.net/1826/1826n.htm"}
+   {:title "Strategy", :url "http://www.18xx.net/1826/1826s.htm"}
+   {:title "Summary", :url "http://www.18xx.net/1826/1826summ.htm"}
+   {:title "Map", :url "http://www.18xx.net/1826/1826m.jpg"}],
+  :info
+  {:designed-by "David G. D. Hecht (US)",
+   :produced-by "Deep Thought Games (US)",
+   :status "In Print",
+   :release-date "March 2000"},
+  :metadata
+  {:location "France and Belgium",
+   :corporations "12 (max of 10 in play)",
+   :privates "6 (Auction 1830 style)",
+   :map-size "79 hexes (91 total)",
+   :off-board "Four steps (2H-6H / 10H / E / TGV)",
+   :bank "F12,000 (Francs)",
+   :tile-colours "Yellow / Green / Brown / Grey",
+   :stock-market "2D (Square)"}}
+ {:title "1827",
+  :link "http://www.18xx.net/1827/1827.htm",
+  :links [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}],
+  :info
+  {:designed-by "Federico Vellani (Italy)",
+   :produced-by "Unlikely to be released",
+   :status "Development on Hold or Abandoned",
+   :release-date "Unlikely to be released"},
+  :metadata
+  {:location "All or part of the 48 contiguous states, USA",
+   :corporations "5, 6, 8, 10, 12, or 16",
+   :privates "19 (11 of which are available at start)",
+   :map-size "86, 119, 203, or 322 hexes",
+   :off-board "???",
+   :bank "$16,640 to $31,640",
+   :tile-colours "Yellow / Green / Brown / Grey",
+   :stock-market "???"}}
+ {:title "1827 Jr.",
+  :link "http://www.18xx.net/1827jr/1827jr.htm",
+  :links [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}],
+  :info
+  {:designed-by "Federico Vellani (Italy)",
+   :produced-by "Unlikely to be released",
+   :status "Development on Hold or Abandoned",
+   :release-date "Unlikely to be released"},
+  :metadata
+  {:location
+   "USA excluding the northeast (east of Chicago and\n                 north of Richmond)",
+   :corporations "6",
+   :privates "13 (5 of which are available at start)",
+   :map-size "65 hexes (71 total)",
+   :off-board "Two steps (1H-4H/5H-)",
+   :bank "$11,640",
+   :tile-colours "Yellow / Green / Brown",
+   :stock-market "1D (Linear)"}}
+ {:title "1828",
+  :link "http://www.18xx.net/1828/1828.htm",
+  :links [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}],
+  :info
+  {:designed-by "Michael Brünker",
+   :produced-by "To be determined",
+   :status "In Development",
+   :release-date "To be determined"},
+  :metadata {:location "German Customs Union (Deutscher Zollverein)"}}
+ {:title "1829",
+  :link "http://www.18xx.net/1829/1829.htm",
+  :links
+  [{:title "Trainspotting", :url "http://www.18xx.net/1829/1829t.htm"}
+   {:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}
+   {:title "Pictures", :url "http://www.18xx.net/1829/1829p.htm"}
+   {:title "Tiles", :url "http://www.18xx.net/tiles/1829.htm"}
+   {:title "Availability", :url "http://www.18xx.net/1829/1829a.htm"}
+   {:title "Maps", :url "http://www.18xx.net/1829/1829m.htm"}],
+  :info
+  {:designed-by "Francis Tresham (UK)",
+   :produced-by "Hartland Trefoil Ltd (UK)",
+   :status "Out of Print",
+   :release-date "1974 (1829 South) / 1981 (1829 North)"},
+  :metadata
+  {:tile-colours "Yellow / Green / Brown / Grey",
+   :privates "4 (Auction), 5 Steam Packets (from Bank)",
+   :corporations "10 (fixed sequence)",
+   :bank "£20,000",
+   :map-size "93 hexes (116 total)",
+   :1829-south " ",
+   :off-board "No red off-board areas",
+   :stock-market "1D (Linear)",
+   :location "Southern England"}}
+ {:title "1830",
+  :link "http://www.18xx.net/1830/1830.htm",
+  :links
+  [{:title "FAQ", :url "http://www.18xx.net/1830/1830f.htm"}
+   {:title "Trainspotting", :url "http://www.18xx.net/1830/1830t.htm"}
+   {:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}
+   {:title "Pictures", :url "http://www.18xx.net/1830/1830p.htm"}
+   {:title "Tiles", :url "http://www.18xx.net/tiles/1830.htm"}
+   {:title "Availability", :url "http://www.18xx.net/1830/1830a.htm"}
+   {:title "Variants", :url "http://www.18xx.net/1830/1830v.htm"}
+   {:title "City List", :url "http://www.18xx.net/1830/1830n.htm"}
+   {:title "Strategy", :url "http://www.18xx.net/1830/1830c.htm"}
+   {:title "Summary", :url "http://www.18xx.net/1830/1830summ.htm"}
+   {:title "Map", :url "http://www.18xx.net/1830/1830m.gif"}],
+  :info
+  {:designed-by "Francis Tresham (UK) / Bruce Shelley (US)",
+   :produced-by "Avalon Hill / Hasbro (US)",
+   :status "Out of Print",
+   :release-date "1986"},
+  :metadata
+  {:location "Northeastern United States",
+   :corporations "8",
+   :privates "6 (Auction 1830 style)",
+   :map-size "74 hexes (93 total)",
+   :off-board "Two steps (2-4 / 5-D)",
+   :bank "$12,000",
+   :tile-colours "Yellow / Green / Brown",
+   :stock-market "2D (Square)"}}
+ {:title "1831",
+  :link "http://www.18xx.net/1831/1831.htm",
+  :links [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}],
+  :info
+  {:designed-by "Carl Burger (US)",
+   :produced-by "Winsome Games (US)",
+   :status "Out Of Print (print run of about 260)",
+   :release-date "1997"},
+  :metadata
+  {:location "Northeastern USA",
+   :corporations "16 to 30",
+   :privates "None",
+   :map-size "Big, I mean really big",
+   :off-board "None",
+   :bank "$16,000 to $30,000",
+   :tile-colours "Yellow / Green / Blue / Red",
+   :stock-market "2D (Square)"}}
+ {:title "1832",
+  :link "http://www.18xx.net/1832/1832.htm",
+  :links
+  [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}
+   {:title "Tiles", :url "http://www.18xx.net/tiles/1832.htm"}],
+  :info
+  {:designed-by "Bill Dixon",
+   :produced-by "Deep Thought Games",
+   :status "In print",
+   :release-date "2006"},
+  :metadata
+  {:location "Southeastern USA",
+   :corporations "8",
+   :privates "6 (1830 style Auction)",
+   :map-size "approx. 120 hexes",
+   :off-board "???",
+   :bank "???",
+   :tile-colours "Yellow / Green / Brown / Grey",
+   :stock-market "2D (Square)"}}
+ {:title "1834",
+  :link "http://www.18xx.net/1834/1834.htm",
+  :links [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}],
+  :info
+  {:designed-by "Tom Lehmann (US)",
+   :produced-by "To be determined",
+   :status "Game in development",
+   :release-date "Expected in 2007"},
+  :metadata {:location "New England, USA / Quebec, Canada"}}
+ {:title "1835",
+  :link "http://www.18xx.net/1835/1835.htm",
+  :links
+  [{:title "Trainspotting", :url "http://www.18xx.net/1835/1835t.htm"}
+   {:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}
+   {:title "Pictures", :url "http://www.18xx.net/1835/1835p.htm"}
+   {:title "Tiles", :url "http://www.18xx.net/tiles/1835.htm"}
+   {:title "Availability", :url "http://www.18xx.net/1835/1835a.htm"}],
+  :info
+  {:designed-by "Michael Meier-Bachl (Germany)",
+   :produced-by "Hans im Glück (Germany)",
+   :status "In Print",
+   :release-date "1990"},
+  :metadata
+  {:location "Germany",
+   :corporations "8 (Layered) / 6 Minor",
+   :privates "6 (Start Packet)",
+   :map-size "101 hexes (126 total)",
+   :off-board "Three steps (2-2",
+   :bank "12,000M (Marks)",
+   :tile-colours "Yellow / Green / Brown",
+   :stock-market "2D (Square)"}}
+ {:title "1836",
+  :link "http://www.18xx.net/1836/1836.htm",
+  :links [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}],
+  :info
+  {:designed-by "David Hecht (US)",
+   :produced-by "David Hecht (US)",
+   :status "Development abandoned, too much overlap with 18BE",
+   :release-date "Unlikely to be released"},
+  :metadata
+  {:location "Netherlands and Belgium",
+   :corporations "12 (Layered) / 4 Minor",
+   :privates "7 (Auctioned with the 4 Minors)",
+   :map-size "89 hexes (108 total)",
+   :off-board "Three steps (4H-8H / 10H / 12H-16H)",
+   :bank "F12,000 (Francs / Florins)",
+   :tile-colours "Yellow / Green / Brown",
+   :stock-market "1D (Linear)"}}
+ {:title "1837",
+  :link "http://www.18xx.net/1837/1837.htm",
+  :links
+  [{:title "FAQ", :url "http://www.18xx.net/1837/1837f.htm"}
+   {:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}
+   {:title "Pictures",
+    :url
+    "http://www.18xx.net/1837/http://www.sosgmbh.at/lonny/18xx/englisch/1837/37bilder.htm"}
+   {:title "Tiles", :url "http://www.18xx.net/tiles/1837.htm"}
+   {:title "Availability",
+    :url "http://www.18xx.net/1837/http://www.lonny.at/"}
+   {:title "Map",
+    :url
+    "http://www.18xx.net/1837/http://www.sosgmbh.at/lonny/18xx/englisch/1837/map.htm"}],
+  :info
+  {:designed-by "Leonhard Orgler (Austria)",
+   :produced-by "Leonhard Orgler (Austria)",
+   :status "Out Of Print",
+   :release-date "1994 (approx.)"},
+  :metadata
+  {:location "Austria-Hungary",
+   :corporations "10 Major / 11 Minor / 10 Coal",
+   :privates "7 (Start Packet)",
+   :map-size "158 hexes",
+   :off-board "None",
+   :bank "14,268 (Kronen)",
+   :tile-colours "Yellow / Green / Brown",
+   :stock-market "2 1/2D (Hex)"}}
+ {:title "1837SX",
+  :link "http://www.18xx.net/1837SX/1837SX.htm",
+  :links [],
+  :info {},
+  :metadata {}}
+ {:title "1838",
+  :link "http://www.18xx.net/1838/1838.htm",
+  :links
+  [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}
+   {:title "Tiles", :url "http://www.18xx.net/tiles/1838.htm"}],
+  :info
+  {:designed-by "Wolfram Janich (Germany)",
+   :produced-by "Wolfram Janich",
+   :status "Out of Print",
+   :release-date "2002"},
+  :metadata
+  {:location "Rhineland (western Germany)",
+   :corporations "6",
+   :privates "6 (Auction 1830 style)",
+   :map-size "60 hexes",
+   :off-board "Three steps (2-2",
+   :bank "8,000 Marks",
+   :tile-colours "Yellow / Green / Brown",
+   :stock-market "2D (Square)"}}
+ {:title "1838TL",
+  :link "http://www.18xx.net/1838TL/1838TL.htm",
+  :links
+  [{:title "Trainspotting",
+    :url "http://www.18xx.net/1838TL/1838TLt.htm"}
+   {:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}
+   {:title "Tiles", :url "http://www.18xx.net/tiles/1838TL.htm"}],
+  :info
+  {:designed-by "Dieter Danziger",
+   :produced-by "Dieter Danziger",
+   :status "Out of Print",
+   :release-date "2002"},
+  :metadata
+  {:location "Central Germany",
+   :corporations "13",
+   :privates "none",
+   :map-size "377 hexes (387 total)",
+   :off-board "Three steps (2 / 3-4 / 5)",
+   :bank "21520 Thaler",
+   :tile-colours "Yellow / Green / Brown",
+   :stock-market "2D (Square)"}}
+ {:title "1839",
+  :link "http://www.18xx.net/1839/1839.htm",
+  :links
+  [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}
+   {:title "Comment", :url "http://www.18xx.net/1839/1839c.htm"}],
+  :info
+  {:designed-by "Paul Stouthard and Rob van Wijngaarden",
+   :produced-by "Paul Stouthard and Rob van Wijngaarden",
+   :status "Out Of Print (Print run of 30)",
+   :release-date "1993"},
+  :metadata
+  {:location "The Netherlands",
+   :corporations "9",
+   :privates "None or 8",
+   :map-size "104 hexes (118 total)",
+   :off-board "Three steps (2 / 3-4 / 5)",
+   :bank "11,520 (plus 4,500 Company Credits)",
+   :tile-colours "Yellow / Green / Brown",
+   :stock-market "1D (Linear)"}}
+ {:title "1840",
+  :link "http://www.18xx.net/1840/1840.htm",
+  :links [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}],
+  :info
+  {:designed-by "Joachim Quadflieg (Germany)",
+   :produced-by "Unlikely to be released",
+   :status "Development Abandoned",
+   :release-date "Unlikely to be released"},
+  :metadata
+  {:location "Germany, Rhineland",
+   :corporations "11",
+   :privates "8 (Layered)",
+   :map-size "?",
+   :off-board "Three steps (2-4",
+   :bank "? (Marks)",
+   :tile-colours "Yellow / Green / Brown / Grey",
+   :stock-market "2D (Square)"}}
+ {:title "1841",
+  :link "http://www.18xx.net/1841/1841.htm",
+  :links
+  [{:title "FAQ", :url "http://www.18xx.net/1841/1841f.htm"}
+   {:title "Trainspotting", :url "http://www.18xx.net/1841/1841t.htm"}
+   {:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}
+   {:title "Rules", :url "http://www.18xx.net/1841/1841rule.htm"}
+   {:title "Tiles", :url "http://www.18xx.net/tiles/1841.htm"}
+   {:title "Pictures", :url "http://www.18xx.net/1841/1841p.htm"}
+   {:title "Availability", :url "http://www.18xx.net/1841/1841a.htm"}
+   {:title "Summary", :url "http://www.18xx.net/1841/1841summ.htm"}],
+  :info
+  {:designed-by "Federico Vellani (Italy)",
+   :produced-by "Deep Thought Games",
+   :status "In Print",
+   :release-date
+   "1994 (Vellani) / July 1996 (Lawson) / 2006 (Tamplin)"},
+  :metadata
+  {:location "Northern Italy",
+   :corporations "24 (18 Major / 6 Minor)",
+   :privates "1 (Auction), no special powers",
+   :map-size "109 hexes (131 total)",
+   :off-board "Three steps (2-3 / 4-5 / 6-8)",
+   :bank "L.14,640 (Lire)",
+   :tile-colours "Yellow / Green / Brown",
+   :stock-market "2D (Square)"}}
+ {:title "1842",
+  :link "http://www.18xx.net/1842/1842.htm",
+  :links
+  [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}
+   {:title "Pictures", :url "http://www.18xx.net/1842/1842p.htm"}
+   {:title "Tiles", :url "http://www.18xx.net/tiles/1842.htm"}
+   {:title "Availability", :url "http://www.18xx.net/1842/1842a.htm"}],
+  :info
+  {:designed-by "Wolfram Janich (Germany)",
+   :produced-by "Marflow Games",
+   :status "In Print",
+   :release-date "1996"},
+  :metadata
+  {:location "Germany, Hamburg area",
+   :corporations "7 (Layered) / 5 Minor",
+   :privates "none",
+   :map-size "74 hexes (97 total)",
+   :off-board "Three steps (2 / 3-4 / 5-8)",
+   :bank "11,000M (Marks)",
+   :tile-colours "Yellow / Green / Brown",
+   :stock-market "2D (Square)"}}
+ {:title "1844",
+  :link "http://www.18xx.net/1844/1844.htm",
+  :links
+  [{:title "FAQ",
+    :url
+    "http://www.18xx.net/1844/http://www.ohley.de/english/faq.html"}
+   {:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}
+   {:title "Rules",
+    :url
+    "http://www.18xx.net/1844/http://www.ohley.de/english/1844_Rules_14-01-04.pdf"}
+   {:title "Tiles", :url "http://www.18xx.net/tiles/1844.htm"}
+   {:title "Pictures",
+    :url
+    "http://www.18xx.net/1844/http://www.ohley.de/english/material.html"}
+   {:title "Availability",
+    :url
+    "http://www.18xx.net/1844/http://www.ohley.de/english/preise.html"}
+   {:title "Map", :url "http://www.18xx.net/1844/1844m.pdf"}],
+  :info
+  {:designed-by "Helmut Ohley, Peter Minder",
+   :produced-by "Helmut Ohley",
+   :status
+   "Out of Print, but a new edition is in development, expected October 2007",
+   :release-date "2004"},
+  :metadata
+  {:location "Switzerland",
+   :corporations "15",
+   :privates "7 (Auction in ascending order)",
+   :map-size "105 hexes (129 total)",
+   :off-board "4 steps (2, 3-4, 5-6, 8)",
+   :bank "12,000 SFR",
+   :tile-colours
+   "Yellow / Green / Brown / Grey / transparent (tunnels) /\n     Purple (alpine pass tiles)",
+   :stock-market "2D (Square)"}}
+ {:title "1846",
+  :link "http://www.18xx.net/1846/1846.htm",
+  :links
+  [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}
+   {:title "Tiles", :url "http://www.18xx.net/tiles/1846.htm"}],
+  :info
+  {:designed-by "Tom Lehmann",
+   :produced-by "Deep Thought Games (US)",
+   :status "In Print",
+   :release-date "March 2005"},
+  :metadata
+  {:location "US Midwest",
+   :corporations "5 to 7",
+   :privates "6 to 10 (secret, noncompetitive selection process)",
+   :map-size "55 hexes (62 total)",
+   :off-board "Two levels (I-II/III-IV)",
+   :bank "$12,000",
+   :tile-colours "Yellow / Green / Brown / Grey",
+   :stock-market "1D (Linear)"}}
+ {:title "1847",
+  :link "http://www.18xx.net/1847/1847.htm",
+  :links
+  [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}
+   {:title "Pictures", :url "http://www.18xx.net/1847/1847p.htm"}
+   {:title "Tiles", :url "http://www.18xx.net/tiles/1847.htm"}
+   {:title "Availability", :url "http://www.18xx.net/1847/1847a.htm"}],
+  :info
+  {:designed-by "Wolfram Janich (Germany)",
+   :produced-by "Wolfram Janich (Germany)",
+   :status "In Print",
+   :release-date "1996"},
+  :metadata
+  {:location "Germany, Pfalz",
+   :corporations "5 (Layered)",
+   :privates "5 (Start Packet)",
+   :map-size "54 hexes (74 total)",
+   :off-board "Three steps (3-3",
+   :bank "8,000M (Marks)",
+   :tile-colours "Yellow / Green / Brown",
+   :stock-market "2D (Square)"}}
+ {:title "1848",
+  :link "http://www.18xx.net/1848/1848.htm",
+  :links
+  [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}
+   {:title "Rules",
+    :url
+    "http://www.18xx.net/1848/http://www.sosgmbh.at/lonny/18xx/englisch/1848/rules.htm"}
+   {:title "Tiles", :url "http://www.18xx.net/tiles/1848.htm"}
+   {:title "Availability",
+    :url
+    "http://www.18xx.net/1848/http://www.sosgmbh.at/lonny/18xx/englisch/1848/bestell.htm"}
+   {:title "Map",
+    :url
+    "http://www.18xx.net/1848/http://www.sosgmbh.at/lonny/18xx/englisch/1848/spielplan.htm"}],
+  :info
+  {:designed-by "Lonny Orgler and Helmut Ohley",
+   :produced-by "O-O Games",
+   :status "In Print",
+   :release-date "October 2007"},
+  :metadata
+  {:location "Australia",
+   :corporations "8",
+   :privates "1 per player",
+   :map-size "55 hexes (60 total)",
+   :off-board "4 steps (2-3 / 4 / 5 / 6)",
+   :bank "£10,000",
+   :tile-colours "Yellow / Green / Brown / Grey / Blue (port)",
+   :stock-market "2D (Square)"}}
+ {:title "1849",
+  :link "http://www.18xx.net/1849/1849.htm",
+  :links [],
+  :info
+  {:location "Sicily",
+   :corporations "5 or 6 (Random Layered)",
+   :privates "6 (Auction 1830 style)",
+   :map-size "57 hexes (72 total)",
+   :off-board "Three steps (4H-6H / 8H-10H / 12H-16H)",
+   :bank "L.7,760 (Lira)",
+   :tile-colours "Yellow / Green / Brown",
+   :stock-market "2D (Square)"},
+  :metadata {:return-to nil}}
+ {:title "1850",
+  :link "http://www.18xx.net/1850/1850.htm",
+  :links
+  [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}
+   {:title "Tiles", :url "http://www.18xx.net/tiles/1850.htm"}],
+  :info
+  {:designed-by "Bill Dixon",
+   :produced-by "Deep Thought Games (US)",
+   :status "In Print",
+   :release-date "November 2005"},
+  :metadata
+  {:location "US Midwest",
+   :corporations "9",
+   :privates "7 (Auction 1830 style)",
+   :map-size "109 hexes (118 total)",
+   :off-board "3 steps (2-4 / 5-6 / 8-12)",
+   :bank "$12,000",
+   :tile-colours "Yellow / Green / Brown / Grey",
+   :stock-market "2D (Square)"}}
+ {:title "1850 Jr.",
+  :link "http://www.18xx.net/1850jr/1850jr.htm",
+  :links [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}],
+  :info
+  {:designed-by "Unknown",
+   :produced-by "18xx zine, 'dalla AX' (Italy)",
+   :status "Out of Print",
+   :release-date "approx. 1996"},
+  :metadata
+  {:location "Sicily",
+   :corporations "4",
+   :privates "3 (Auction 1830 style)",
+   :map-size "20 hexes (30 total)",
+   :off-board "Two steps (2-4 / 5-D)",
+   :bank "$6,000",
+   :tile-colours "Yellow / Green / Brown",
+   :stock-market "2D (Square)"}}
+ {:title "1851",
+  :link "http://www.18xx.net/1851/1851.htm",
+  :links
+  [{:title "Trainspotting", :url "http://www.18xx.net/1851/1851t.htm"}
+   {:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}
+   {:title "Rules", :url "http://www.18xx.net/1851/1851rule.htm"}
+   {:title "Tiles", :url "http://www.18xx.net/tiles/1851.htm"}
+   {:title "Pictures", :url "http://www.18xx.net/1851/1851p.htm"}
+   {:title "Availability", :url "http://www.18xx.net/1851/1851a.htm"}
+   {:title "Release Note", :url "http://www.18xx.net/1851/1851r.htm"}
+   {:title "City List", :url "http://www.18xx.net/1851/1851n.htm"}
+   {:title "Summary", :url "http://www.18xx.net/1851/1851summ.htm"}],
+  :info
+  {:designed-by "Chris Lawson (UK) and Mark Derrick (US)",
+   :produced-by "Chris Lawson (UK)",
+   :status "???",
+   :release-date "Feb 1998"},
+  :metadata
+  {:location "Kentucky / Tennessee, USA",
+   :corporations "6",
+   :privates "3 to 5 (random distribution), no special powers",
+   :map-size "84 hexes (91 total)",
+   :off-board "Three steps (2-3 / 4-5 / 6-8)",
+   :bank "$8,040",
+   :tile-colours "Yellow / Green / Brown / Grey",
+   :stock-market "2D (Square)"}}
+ {:title "1852",
+  :link "http://www.18xx.net/1852/1852.htm",
+  :links
+  [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}
+   {:title "City List", :url "http://www.18xx.net/1852/1852n.htm"}],
+  :info
+  {:designed-by "Chris Lawson (UK)",
+   :produced-by "Chris Lawson (UK)",
+   :status "Game in development",
+   :release-date "???"},
+  :metadata
+  {:tile-colours "Yellow / Green / Brown / Grey",
+   :privates "? (Auction)",
+   :corporations "8",
+   :bank "$12,000",
+   :1851-expansion-game nil,
+   :map-size "84 hexes (91 total)",
+   :off-board "Three steps (2-3 / 4-5 / 6-8)",
+   :stock-market "2D (Square)",
+   :location "Kentucky / Tennessee, USA"}}
+ {:title "1853",
+  :link "http://www.18xx.net/1853/1853.htm",
+  :links
+  [{:title "Trainspotting", :url "http://www.18xx.net/1853/1853t.htm"}
+   {:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}
+   {:title "Pictures", :url "http://www.18xx.net/1853/1853p.htm"}
+   {:title "Tiles", :url "http://www.18xx.net/tiles/1853.htm"}
+   {:title "Availability", :url "http://www.18xx.net/1853/1853a.htm"}
+   {:title "Map", :url "http://www.18xx.net/1853/1853m.pdf"}],
+  :info
+  {:designed-by "Francis Tresham (UK)",
+   :produced-by "Hartland Trefoil Ltd (UK)",
+   :status "Game In Print (limited numbers left)",
+   :release-date "1989"},
+  :metadata
+  {:location "India",
+   :corporations "8 (fixed sequence)",
+   :privates "None",
+   :map-size "171 hexes",
+   :off-board "No red off-board areas",
+   :bank "£12,500",
+   :tile-colours "Yellow / Green / Brown / Grey",
+   :stock-market "1D (Linear)"}}
+ {:title "1854",
+  :link "http://www.18xx.net/1854/1854.htm",
+  :links
+  [{:title "FAQ",
+    :url
+    "http://www.18xx.net/1854/http://www.sosgmbh.at/lonny/18xx/englisch/1854/faq.htm"}
+   {:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}
+   {:title "Rules",
+    :url
+    "http://www.18xx.net/1854/http://www.sosgmbh.at/lonny/18xx/englisch/1854/rules.htm"}
+   {:title "Tiles", :url "http://www.18xx.net/tiles/1854.htm"}
+   {:title "Pictures",
+    :url
+    "http://www.18xx.net/1854/http://www.sosgmbh.at/lonny/18xx/englisch/1854/54bilder.htm"}
+   {:title "Map",
+    :url
+    "http://www.18xx.net/1854/http://www.sosgmbh.at/lonny/18xx/englisch/1854/map.htm"}],
+  :info
+  {:designed-by "Lonny Orgler (Austria)",
+   :produced-by
+   {:tag :a,
+    :attrs
+    {:href "http://www.sosgmbh.at/lonny/18xx/englisch/1854/order.htm"},
+    :content ("Lonny Orgler (Austria)")},
+   :status "In Print",
+   :release-date "???"},
+  :metadata
+  {:location "Austria",
+   :corporations "11 major / 6 minor",
+   :privates "5 (Auction 1830 style)",
+   :map-size "Two maps, 55 (68 total) and 16 hexes",
+   :off-board "4 steps (2, 3-4, 5-6, 8)",
+   :bank "9,672 Gulden (Lonny Orgler version);",
+   :tile-colours
+   "Yellow / Green / Brown / Grey / transparent (tunnels)",
+   :stock-market "2 1/2D (Hex)"}}
+ {:title "1855",
+  :link "http://www.18xx.net/1855/1855.htm",
+  :links [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}],
+  :info
+  {:designed-by "Frank Thuro",
+   :produced-by "To be determined",
+   :status "In development",
+   :release-date "To be determined"},
+  :metadata {:location "Australia"}}
+ {:title "1856",
+  :link "http://www.18xx.net/1856/1856.htm",
+  :links
+  [{:title "FAQ", :url "http://www.18xx.net/1856/1856f.htm"}
+   {:title "Trainspotting", :url "http://www.18xx.net/1856/1856t.htm"}
+   {:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}
+   {:title "Pictures", :url "http://www.18xx.net/1856/1856p.htm"}
+   {:title "Tiles", :url "http://www.18xx.net/tiles/1856.htm"}
+   {:title "Availability", :url "http://www.18xx.net/1856/1856a.htm"}
+   {:title "Map", :url "http://www.18xx.net/1856/1856m.jpg"}],
+  :info
+  {:designed-by "Bill Dixon (Canada)",
+   :produced-by "Mayfair Games (US)",
+   :status "In Print (well, at least still available)",
+   :release-date "1995"},
+  :metadata
+  {:location "Southern Ontario, Canada",
+   :corporations "11",
+   :privates "6 (Auction 1830 style)",
+   :map-size "87 hexes (99 total)",
+   :off-board "Three steps (2-4 / 5-6 / D)",
+   :bank "$12,000",
+   :tile-colours "Yellow / Green / Brown / Grey",
+   :stock-market "2D (Square)"}}
+ {:title "1857",
+  :link "http://www.18xx.net/1857/1857.htm",
+  :links [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}],
+  :info
+  {:designed-by "Dan Chinnery (US)",
+   :produced-by "Unlikely to be released",
+   :status "Development on Hold or Abandoned",
+   :release-date "Unlikely to be released"},
+  :metadata
+  {:location "Wisconsin, US",
+   :corporations "7",
+   :privates "6 (Auction 1830 style)",
+   :map-size "approx 170 hexes",
+   :off-board "Three steps (2-4 / 5-6 / 8-12)",
+   :bank "$12,000 ?",
+   :tile-colours "Yellow / Green / Brown",
+   :stock-market "2D (Square)"}}
+ {:title "1858",
+  :link "http://www.18xx.net/1858/1858.htm",
+  :links [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}],
+  :info
+  {:designed-by "J. ter Heurne",
+   :produced-by "To be determined",
+   :status "In development",
+   :release-date "To be determined"},
+  :metadata {:location "Turkey"}}
+ {:title "1860",
+  :link "http://www.18xx.net/1860/1860.htm",
+  :links
+  [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}
+   {:title "Tiles", :url "http://www.18xx.net/tiles/1860.htm"}],
+  :info
+  {:designed-by "Mike Hutton",
+   :produced-by "JKLM Games",
+   :status "In print; expansion set in development",
+   :release-date "2004"},
+  :metadata
+  {:location "Isle of Wight (UK)",
+   :corporations "8",
+   :privates "4 (Auction), 1 Ferry Company (from Bank)",
+   :map-size "40 hexes (41 total)",
+   :off-board "Three steps (2+1 / 3+2 / 5+3)",
+   :bank "£10,000",
+   :tile-colours "Yellow / Green / Brown",
+   :stock-market "1D (Linear)"}}
+ {:title "1861",
+  :link "http://www.18xx.net/1861/1861.htm",
+  :links [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}],
+  :info
+  {:designed-by "Ian D.",
+   :produced-by "Z-Man Games",
+   :status "In print",
+   :release-date "December 2006"},
+  :metadata
+  {:location "Russia",
+   :corporations "8 major, 16 minor",
+   :privates "5",
+   :map-size "125 hexes (144 total)",
+   :off-board "4 steps (2, 3-4, 5, 6-8)",
+   :bank "unlimited",
+   :tile-colours "Yellow / Green / Brown / Grey",
+   :stock-market "2D (Square)"}}
+ {:title "1862",
+  :link "http://www.18xx.net/1862/1862.htm",
+  :links
+  [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}
+   {:title "Tiles", :url "http://www.18xx.net/tiles/1862.htm"}
+   {:title "Availability",
+    :url
+    "http://www.18xx.net/1862/http://www.ohley.de/english/preise.html"}],
+  :info
+  {:designed-by "Helmut Ohley (Germany)",
+   :produced-by "Helmut Ohley (Germany)",
+   :status "In Print",
+   :release-date "2000"},
+  :metadata
+  {:location "Continental USA and Canada",
+   :corporations "13 (Layered)",
+   :privates "8 (1830 style Auction)",
+   :map-size "167 hexes (182 total)",
+   :off-board "Two steps (2-4 / 5-10E)",
+   :bank "$22,000",
+   :tile-colours "Yellow / Green / Brown / Grey",
+   :stock-market "2D (square)"}}
+ {:title "1866",
+  :link "http://www.18xx.net/1866/1866.htm",
+  :links [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}],
+  :info
+  {:designed-by "David Earlywine (US)",
+   :produced-by "Mayfair (maybe)",
+   :status "Still under development",
+   :release-date "To be determined"},
+  :metadata {:location "Western USA"}}
+ {:title "1868",
+  :link "http://www.18xx.net/1868/1868.htm",
+  :links [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}],
+  :info
+  {:designed-by "Tony Leal (US)",
+   :produced-by "Unlikely to be released",
+   :status "Design on Hold",
+   :release-date "Unlikely to be released"},
+  :metadata
+  {:location "Western USA",
+   :corporations "11",
+   :privates "49 (Random), 8 Steam Packets (from Bank)",
+   :map-size "142 hexes (156 total)",
+   :off-board "No red off-board areas",
+   :bank "$20,000",
+   :tile-colours "Yellow / Green / Brown / Grey",
+   :stock-market "1D (Linear)"}}
+ {:title "1868BU",
+  :link "http://www.18xx.net/1868BU/1868BU.htm",
+  :links [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}],
+  :info
+  {:designed-by "Michael Brünker",
+   :produced-by "To be determined",
+   :status "In development",
+   :release-date "To be determined"},
+  :metadata {:location "Budapest, Hungary"}}
+ {:title "1869",
+  :link "http://www.18xx.net/1869/1869.htm",
+  :links [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}],
+  :info
+  {:designed-by "Bill Dixon",
+   :produced-by "Unlikely to be released",
+   :status "Design on Hold",
+   :release-date "Unlikely to be released"},
+  :metadata {:location "Continental USA"}}
+ {:title "1869AM",
+  :link "http://www.18xx.net/1869AM/1869AM.htm",
+  :links
+  [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}
+   {:title "Tiles", :url "http://www.18xx.net/tiles/1869AM.htm"}
+   {:title "Rules", :url "http://www.18xx.net/1869AM/1869AMr.txt"}
+   {:title "Map", :url "http://www.18xx.net/1869AM/1869AMm.pdf"}],
+  :info
+  {:designed-by "Alan R. Moon",
+   :produced-by "Unlikely to be released",
+   :status "In development",
+   :release-date "Unlikely to be released"},
+  :metadata
+  {:location "Western USA and Canada",
+   :corporations "13 (Layered)",
+   :privates "7 (1830 style Auction)",
+   :map-size "179 hexes (186 total)",
+   :off-board "No red off-board areas",
+   :bank "$36,000",
+   :tile-colours "Yellow / Green / Brown",
+   :stock-market "2D (Square)"}}
+ {:title "1869TGS",
+  :link "http://www.18xx.net/1869TGS/1869TGS.htm",
+  :links
+  [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}
+   {:title "Tiles", :url "http://www.18xx.net/tiles/1869TGS.htm"}],
+  :info
+  {:designed-by "Colin Barnhorst and Kris Marquardt",
+   :produced-by "C&K",
+   :status "???",
+   :release-date "1996"},
+  :metadata
+  {:location "Continental USA",
+   :corporations "???",
+   :privates "???",
+   :map-size "???",
+   :off-board "???",
+   :bank "???",
+   :tile-colours "Yellow / Green / Brown / Grey",
+   :stock-market "???"}}
+ {:title "1870",
+  :link "http://www.18xx.net/1870/1870.htm",
+  :links
+  [{:title "Trainspotting", :url "http://www.18xx.net/1870/1870t.htm"}
+   {:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}
+   {:title "Pictures", :url "http://www.18xx.net/1870/1870p1.jpg"}
+   {:title "Tiles", :url "http://www.18xx.net/tiles/1870.htm"}
+   {:title "Availability", :url "http://www.18xx.net/1870/1870a.htm"}
+   {:title "Comment", :url "http://www.18xx.net/1870/1870c.htm"}],
+  :info
+  {:designed-by "Bill Dixon (Canada)",
+   :produced-by "Mayfair Games (US)",
+   :status "Game In Print (well, at least still available)",
+   :release-date "1995"},
+  :metadata
+  {:location "Mississippi Valley, USA",
+   :corporations "10",
+   :privates "6 (Auction 1830 style)",
+   :map-size "145 hexes (149 total)",
+   :off-board "Three steps (2-4 / 5-8 / 10-12)",
+   :bank "$12,000",
+   :tile-colours "Yellow / Green / Brown / Grey",
+   :stock-market "2D (Square)"}}
+ {:title "1872",
+  :link "http://www.18xx.net/1872/1872.htm",
+  :links
+  [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}
+   {:title "Map", :url "http://www.18xx.net/1872/1872m.gif"}],
+  :info
+  {:designed-by "Thomas Hüttner",
+   :produced-by "To be determined",
+   :status "Possibly finished, awaiting publisher",
+   :release-date "To be determined"},
+  :metadata {:location "Japan"}}
+ {:title "1872BM",
+  :link "http://www.18xx.net/1872BM/1872BM.htm",
+  :links [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}],
+  :info
+  {:designed-by "Colin Barnhorst (US) and Kris Marquardt (US)",
+   :produced-by "To be determined",
+   :status "Unknown",
+   :release-date "Unknown, may have been available"},
+  :metadata {:location "Japan"}}
+ {:title "1873",
+  :link "http://www.18xx.net/1873/1873.htm",
+  :links [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}],
+  :info
+  {:designed-by "Klaus Kiermeier, Eckhart Kinast, Björn Rabenstein",
+   :produced-by "To be determined",
+   :status "In development",
+   :release-date "Expected summer 2008"},
+  :metadata
+  {:location "Harz Mountains, Germany",
+   :corporations
+   "15 minor mining corps., 5 major mining corps., 7 (+1)",
+   :privates "None",
+   :map-size "64 hexes (71 total)",
+   :off-board "None",
+   :bank "unlimited",
+   :tile-colours "Yellow / Green / Brown / Grey",
+   :stock-market "1D (Linear)"}}
+ {:title "1874",
+  :link "http://www.18xx.net/1874/1874.htm",
+  :links [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}],
+  :info
+  {:designed-by "Ryan Moats",
+   :produced-by "Unlikely to be released",
+   :status "Development on Hold or Abandoned",
+   :release-date "Unlikely to be released"},
+  :metadata {:location "Lake Superior, USA / Canada"}}
+ {:title "1876",
+  :link "http://www.18xx.net/1876/1876.htm",
+  :links
+  [{:title "FAQ", :url "http://www.18xx.net/1876/1876f.htm"}
+   {:title "Trainspotting", :url "http://www.18xx.net/1876/1876t.htm"}
+   {:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}
+   {:title "Pictures", :url "http://www.18xx.net/1876/1876p.htm"}
+   {:title "Tiles", :url "http://www.18xx.net/tiles/1876.htm"}
+   {:title "Availability", :url "http://www.18xx.net/1876/1876a.htm"}
+   {:title "Comment", :url "http://www.18xx.net/history/trinidad.htm"}
+   {:title "Maps", :url "http://www.18xx.net/1876/1876m.htm"}],
+  :info
+  {:1876-30 " ",
+   :designed-by "Peter Jacobi (Germany)",
+   :produced-by "Chris Lawson (UK)",
+   :status "Out of Print",
+   :release-date "August 1996"},
+  :metadata
+  {:location "Trinidad",
+   :corporations "3",
+   :privates "4 (Auction 1830 style)",
+   :map-size "12 hexes (18 total)",
+   :off-board "No red off-board areas",
+   :bank "$4,500",
+   :tile-colours "Yellow / Green / Brown",
+   :stock-market "2D (Square)"}}
+ {:title "1880",
+  :link "http://www.18xx.net/1880/1880.htm",
+  :links
+  [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}
+   {:title "Link",
+    :url
+    "http://www.18xx.net/1880/http://home.munich.netsurf.de/Adam.Romoth/18xx/18xxrest.htm"}],
+  :info
+  {:designed-by "Peter Qualle Hoffmann",
+   :produced-by "To be determined",
+   :status "Unknown",
+   :release-date "Unknown"},
+  :metadata {:location "Iceland"}}
+ {:title "1881",
+  :link "http://www.18xx.net/1881/1881.htm",
+  :links
+  [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}
+   {:title "Comment", :url "http://www.18xx.net/1881/1881c.htm"}],
+  :info
+  {:designed-by "Michael Mette",
+   :produced-by "Michael Mette",
+   :status "Out Of Print (Print run of 30)",
+   :release-date "1990 - 1992 ?"},
+  :metadata {:location "Berlin, Germany"}}
+ {:title "1888",
+  :link "http://www.18xx.net/1888/1888.htm",
+  :links [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}],
+  :info
+  {:designed-by "Michael Brünker",
+   :produced-by "To be determined",
+   :status "In development",
+   :release-date "To be determined"},
+  :metadata {:location "Puerto Rico"}}
+ {:title "1889",
+  :link "http://www.18xx.net/1889/1889.htm",
+  :links
+  [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}
+   {:title "Tiles", :url "http://www.18xx.net/tiles/1889.htm"}],
+  :info
+  {:designed-by "Yasutaka Ikeda (Japan)",
+   :produced-by "Deep Thought Games (US)",
+   :status "In Print",
+   :release-date "June 2006"},
+  :metadata
+  {:location "Shikoku, Japan",
+   :corporations "7",
+   :privates "5 to 7 (Auction 1830 style)",
+   :map-size "45 hexes (49 total)",
+   :off-board "Three levels (2-4 / 5-6 / D)",
+   :bank "¥7,000",
+   :tile-colours "Yellow / Green / Brown",
+   :stock-market "2D (Square)"}}
+ {:title "1890",
+  :link "http://www.18xx.net/1890/1890.htm",
+  :links
+  [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}
+   {:title "Map", :url "http://www.18xx.net/1890/1890m.jpg"}],
+  :info
+  {:designed-by "Shin-ichi Takasaki (Japan)",
+   :produced-by "Nobuhiro Izumi (Japan)",
+   :status "In Print",
+   :release-date "April 1999"},
+  :metadata
+  {:location "Osaka, Japan",
+   :corporations "8 / 5 (minor)",
+   :privates "6 (Auction 1830 style)",
+   :map-size "71 hexes (83 total)",
+   :off-board "Three steps",
+   :bank "Y12,000",
+   :tile-colours "Yellow / Green / Brown",
+   :stock-market "2D (Square)"}}
+ {:title "1891",
+  :link "http://www.18xx.net/1891/1891.htm",
+  :links [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}],
+  :info
+  {:designed-by "Masanaga Hojo (Japan)",
+   :produced-by "Masanaga Hojo (Japan)",
+   :status "In Print",
+   :release-date "March 2006"},
+  :metadata {:location "Southern Hiroshima prefecture, Japan"}}
+ {:title "1895",
+  :link "http://www.18xx.net/1895/1895.htm",
+  :links
+  [{:title "FAQ",
+    :url
+    "http://www.18xx.net/1895/http://www.ohley.de/namibia/faq-englisch.html"}
+   {:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}
+   {:title "Rules",
+    :url
+    "http://www.18xx.net/1895/http://www.ohley.de/namibia/1895_englisch.pdf"}
+   {:title "Tiles", :url "http://www.18xx.net/tiles/1895.htm"}
+   {:title "Pictures",
+    :url
+    "http://www.18xx.net/1895/http://www.ohley.de/namibia/material.html"}
+   {:title "Availability",
+    :url
+    "http://www.18xx.net/1895/http://www.ohley.de/english/preise.html"}],
+  :info
+  {:designed-by "Adam Romoth, Helmut Ohley",
+   :produced-by "Helmut Ohley",
+   :status "In Print",
+   :release-date "2004"},
+  :metadata
+  {:location "Namibia",
+   :corporations "5",
+   :privates "1 and 5 obligations (Auction)",
+   :map-size "72 hexes (77 total)",
+   :off-board "3 steps (2H, 3H-8H, 10H)",
+   :bank "6,528 Reichsmarks",
+   :tile-colours "Yellow / Green / Brown",
+   :stock-market "2D (Square)"}}
+ {:title "1897",
+  :link "http://www.18xx.net/1897/1897.htm",
+  :links [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}],
+  :info
+  {:1897 " ",
+   :designed-by "Tatsuya Kamioka (Japan)",
+   :produced-by "Tatsuya Kamioka (Japan)",
+   :status "In Print",
+   :release-date "???"},
+  :metadata {:location "Gunma prefecture, Japan"}}
+ {:title "1898",
+  :link "http://www.18xx.net/1898/1898.htm",
+  :links
+  [{:title "Trainspotting", :url "http://www.18xx.net/1898/1898t.htm"}
+   {:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}
+   {:title "Tiles", :url "http://www.18xx.net/tiles/1898.htm"}
+   {:title "Availability", :url "http://www.18xx.net/1898/1898a.htm"}
+   {:title "Map", :url "http://www.18xx.net/1898/plan.gif"}],
+  :info
+  {:designed-by "Michael Brünker (Germany)",
+   :produced-by "Michael Brünker (Germany)",
+   :status "Out Of Print",
+   :release-date "February 1999"},
+  :metadata
+  {:location "France",
+   :corporations "26 (17 Major / 9 Minor)",
+   :privates "1 (Auction), no special powers",
+   :map-size "142 hexes (166 total)",
+   :off-board "Four steps (2-3 / 4-5 / 6-7 / 8)",
+   :bank "15,520 Francs",
+   :tile-colours "Yellow / Green / Brown / Grey",
+   :stock-market "2D (Square)"}}
+ {:title "1899",
+  :link "http://www.18xx.net/1899/1899.htm",
+  :links
+  [{:title "FAQ", :url "http://www.18xx.net/1899/1899f.htm"}
+   {:title "Trainspotting", :url "http://www.18xx.net/1899/1899t.htm"}
+   {:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}
+   {:title "V2 Upgrade", :url "http://www.18xx.net/1899/1899v2.htm"}
+   {:title "Tiles", :url "http://www.18xx.net/tiles/1899.htm"}
+   {:title "Pictures", :url "http://www.18xx.net/1899/1899p.htm"}
+   {:title "Availability", :url "http://www.18xx.net/1899/1899a.htm"}],
+  :info
+  {:designed-by "Ingo Meyer (Germany) / Dirk Clemens (Germany)",
+   :produced-by "Chris Lawson (UK)",
+   :status "Out of Print",
+   :release-date "January 1996"},
+  :metadata
+  {:location "China / Korea",
+   :corporations "8",
+   :privates "6 (Auction 1830 style)",
+   :map-size "65 hexes (91 total)",
+   :off-board "Two steps (2-4 / 5-D)",
+   :bank "$17,000",
+   :tile-colours "Yellow / Green / Brown",
+   :stock-market "2D (Square)"}}
+ {:title "1899KP",
+  :link "http://www.18xx.net/1899KP/1899KP.htm",
+  :links [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}],
+  :info
+  {:designed-by "Nobuhiro Izumi (Japan)",
+   :produced-by "Nobuhiro Izumi (Japan)",
+   :status "In Print",
+   :release-date "???"},
+  :metadata {:location "Korean Peninsula"}}
+ {:title "18AL",
+  :link "http://www.18xx.net/18AL/18AL.htm",
+  :links
+  [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}
+   {:title "Rules", :url "http://www.18xx.net/18AL/18ALr.txt"}
+   {:title "Tiles", :url "http://www.18xx.net/tiles/18AL.htm"}
+   {:title "Availability", :url "http://www.18xx.net/18AL/18ALa.htm"}
+   {:title "Release Note", :url "http://www.18xx.net/18AL/18ALn.txt"}
+   {:title "Map", :url "http://www.18xx.net/18AL/18ALm.pdf"}],
+  :info
+  {:designed-by "Mark Derrick (US)",
+   :produced-by "John Galt (US)",
+   :status "Available",
+   :release-date "1996"},
+  :metadata
+  {:location "Alabama (United States)",
+   :corporations "6",
+   :privates "5 (Auction 1830 style)",
+   :map-size "53 hexes (64 total)",
+   :off-board "Two steps (2-4 / 5-4D)",
+   :bank "$8,000",
+   :tile-colours "Yellow / Green / Brown / Grey",
+   :stock-market "2D (Square)"}}
+ {:title "18BE",
+  :link "http://www.18xx.net/18BE/18BE.htm",
+  :links [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}],
+  :info
+  {:designed-by "Frederic Taton (Belgium)",
+   :produced-by "To be determined",
+   :status "In development",
+   :release-date "To be determined, probably not in 2006"},
+  :metadata {:location "Belgium"}}
+ {:title "18C2C",
+  :link "http://www.18xx.net/18C2C/18C2C.htm",
+  :links
+  [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}
+   {:title "Tiles", :url "http://www.18xx.net/tiles/18C2C.htm"}],
+  :info
+  {:designed-by "???",
+   :produced-by "???",
+   :status "In Print",
+   :release-date "???"},
+  :metadata
+  {:location "Continental USA",
+   :corporations "???",
+   :privates "???",
+   :map-size "very large",
+   :off-board "???",
+   :bank "???",
+   :tile-colours "Yellow / Green / Brown / Grey",
+   :stock-market "2D (Square)"}}
+ {:title "18Dixie",
+  :link "http://www.18xx.net/18Dixie/18Dixie.htm",
+  :links
+  [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}
+   {:title "Map", :url "http://www.18xx.net/18Dixie/18Dixie_Map.pdf"}],
+  :info
+  {:designed-by "Mark Derrick",
+   :produced-by "Deep Thought Games",
+   :status "In development",
+   :release-date "To be determined"},
+  :metadata
+  {:location "Southeastern USA",
+   :corporations "???",
+   :privates "???",
+   :map-size "148 hexes (157 total)",
+   :off-board "Two steps (2-4 / 5-D)",
+   :bank "???",
+   :tile-colours "Yellow / Green / Brown / Grey",
+   :stock-market "2D (Square)"}}
+ {:title "18EA",
+  :link "http://www.18xx.net/18EA/18EA.htm",
+  :links [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}],
+  :info
+  {:designed-by "Mike Hutton (UK)",
+   :produced-by "To be determined",
+   :status "In development",
+   :release-date "Expected 2007"},
+  :metadata
+  {:location "East Anglia, England",
+   :corporations "16",
+   :privates "???",
+   :map-size "???",
+   :off-board "???",
+   :bank "???",
+   :tile-colours "???",
+   :stock-market "???"}}
+ {:title "18EC",
+  :link "http://www.18xx.net/18EC/18EC.htm",
+  :links
+  [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}
+   {:title "Tiles", :url "http://www.18xx.net/tiles/18EC.htm"}],
+  :info
+  {:designed-by "Auke Stegink, Han Heidema",
+   :produced-by "Wolfram Janich",
+   :status "In Print",
+   :release-date "2005"},
+  :metadata
+  {:location "USA, East Coast to Mississippi",
+   :corporations "9",
+   :privates "6 (Auction 1830 style)",
+   :map-size "128 hexes (142 total)",
+   :off-board "Two steps (2-4 / 5-D)",
+   :bank "$18,000",
+   :tile-colours "Yellow / Green / Brown",
+   :stock-market "2D (Square)"}}
+ {:title "18EU",
+  :link "http://www.18xx.net/18EU/18EU.htm",
+  :links
+  [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}
+   {:title "Tiles", :url "http://www.18xx.net/tiles/18EU.htm"}],
+  :info
+  {:designed-by "David Hecht",
+   :produced-by "Deep Thought Games (US)",
+   :status "In Print",
+   :release-date "2004 (?)"},
+  :metadata
+  {:location "Europe",
+   :corporations "8 / 15 (minors)",
+   :privates "none",
+   :map-size "109 hexes (118 total)",
+   :off-board "Two steps (2-4 / 5-8)",
+   :bank "£12,000",
+   :tile-colours "Yellow / Green / Brown / Grey",
+   :stock-market "2D (square)"}}
+ {:title "18FB",
+  :link "http://www.18xx.net/18FB/18FB.htm",
+  :links [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}],
+  :info
+  {:designed-by "Alessandro Lala",
+   :produced-by "To be determined",
+   :status "In development",
+   :release-date "To be determined"},
+  :metadata {:location "Southern Italy"}}
+ {:title "18FL",
+  :link "http://www.18xx.net/18FL/18FL.htm",
+  :links
+  [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}
+   {:title "Tiles", :url "http://www.18xx.net/tiles/18FL.htm"}],
+  :info
+  {:designed-by "David Hecht",
+   :produced-by "Deep Thought Games (US)",
+   :status "In Print",
+   :release-date "2006"},
+  :metadata
+  {:location "Florida",
+   :corporations "8",
+   :privates "4",
+   :map-size "50 hexes (55 total)",
+   :off-board "2 steps (2-4, 5-6/3E)",
+   :bank "$8,000",
+   :tile-colours "Yellow / Green / Brown / Grey",
+   :stock-market "1D (Linear)"}}
+ {:title "18FR",
+  :link "http://www.18xx.net/18FR/18FR.htm",
+  :links
+  [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}
+   {:title "Tiles", :url "http://www.18xx.net/tiles/18FR.htm"}
+   {:title "Download",
+    :url
+    "http://www.18xx.net/18FR/http://www.ohley.de/18fr/download.htm"}],
+  :info
+  {:designed-by "Michael Liebetanz (Germany)",
+   :produced-by "Helmut Ohley (Germany)",
+   :status "In Print",
+   :release-date "1989"},
+  :metadata
+  {:location "France",
+   :corporations "8",
+   :privates "6",
+   :map-size "???",
+   :off-board "???",
+   :bank "12,000",
+   :tile-colours "Yellow / Green / Brown",
+   :stock-market "???"}}
+ {:title "18GA",
+  :link "http://www.18xx.net/18GA/18GA.htm",
+  :links
+  [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}
+   {:title "Rules", :url "http://www.18xx.net/18GA/18GAr.txt"}
+   {:title "Tiles", :url "http://www.18xx.net/tiles/18GA.htm"}
+   {:title "Availability", :url "http://www.18xx.net/18GA/18GAa.htm"}
+   {:title "Release Note", :url "http://www.18xx.net/18GA/18GAn.txt"}
+   {:title "Map", :url "http://www.18xx.net/18GA/18GAm.pdf"}],
+  :info
+  {:designed-by "Mark Derrick (US)",
+   :produced-by "John Galt (US)",
+   :status "Available",
+   :release-date "1996"},
+  :metadata
+  {:location "Georgia (United States)",
+   :corporations "6",
+   :privates "5 (Auction 1830 style)",
+   :map-size "46 hexes (51 total)",
+   :off-board "Two steps (2-4 / 5-8)",
+   :bank "$8,000",
+   :tile-colours "Yellow / Green / Brown",
+   :stock-market "2D (Square)"}}
+ {:title "18GL",
+  :link "http://www.18xx.net/18GL/18GL.htm",
+  :links
+  [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}
+   {:title "Tiles", :url "http://www.18xx.net/tiles/18GL.htm"}],
+  :info
+  {:designed-by "???",
+   :produced-by "Deep Thought Games (US)",
+   :status "In Print",
+   :release-date "2005 (?)"},
+  :metadata
+  {:location "Great Lakes, USA / Canada",
+   :corporations "???",
+   :privates "???",
+   :map-size "???",
+   :off-board "???",
+   :bank "???",
+   :tile-colours "Yellow / Green / Brown / Grey / Blue (ferry routes)",
+   :stock-market "2D (Square)"}}
+ {:title "18GM",
+  :link "http://www.18xx.net/18GM/18GM.htm",
+  :links [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}],
+  :info
+  {:designed-by "Colin Barnhorst (US) and Kris Marquardt (US)",
+   :produced-by "To be determined",
+   :status "Unknown",
+   :release-date "1996"},
+  :metadata {:location "Generic, Random Map"}}
+ {:title "18heXX",
+  :link "http://www.18xx.net/18heXX/18heXX.htm",
+  :links [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}],
+  :info
+  {:designed-by "Mike Schneider",
+   :produced-by "???",
+   :status "Not yet in print",
+   :release-date "???"},
+  :metadata
+  {:location "abstract",
+   :corporations "???",
+   :privates "???",
+   :map-size "variable (build your own)",
+   :off-board "None",
+   :bank "???",
+   :tile-colours "???",
+   :stock-market "???"}}
+ {:title "18IB",
+  :link "http://www.18xx.net/18IB/18IB.htm",
+  :links [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}],
+  :info
+  {:designed-by "Akke Monasso",
+   :produced-by "To be determined",
+   :status "In development",
+   :release-date "To be determined"},
+  :metadata {:location "Iberian Peninsula"}}
+ {:title "18IR",
+  :link "http://www.18xx.net/18IR/18IR.htm",
+  :links [],
+  :info {},
+  :metadata {}}
+ {:title "18Kaas",
+  :link "http://www.18xx.net/18Kaas/18Kaas.htm",
+  :links
+  [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}
+   {:title "Tiles", :url "http://www.18xx.net/tiles/18Kaas.htm"}],
+  :info
+  {:designed-by "Erno Eekelschot",
+   :produced-by "ERJO Games",
+   :status "???",
+   :release-date "???"},
+  :metadata
+  {:location "Netherlands",
+   :corporations "8",
+   :privates "6 (Auction 1830 style)",
+   :map-size "69 hexes (84 total)",
+   :off-board "2 steps (2-4, 5-D)",
+   :bank "12,000 Gulden",
+   :tile-colours "Yellow / Green / Brown",
+   :stock-market "2D (Square)"}}
+ {:title "18Kids",
+  :link "http://www.18xx.net/18Kids/18Kids.htm",
+  :links [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}],
+  :info
+  {:designed-by "???",
+   :produced-by "???",
+   :status "In print",
+   :release-date "May 2005"},
+  :metadata
+  {:location "Fantasy world",
+   :corporations "1 per player",
+   :privates "None",
+   :map-size "9 hexes",
+   :off-board "None",
+   :bank "???",
+   :tile-colours
+   "Yellow / Green (and Brown if optional rules are used)",
+   :stock-market "None"}}
+ {:title "18MEX",
+  :link "http://www.18xx.net/18MEX/18MEX.htm",
+  :links
+  [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}
+   {:title "Tiles", :url "http://www.18xx.net/tiles/18MEX.htm"}
+   {:title "Map", :url "http://www.18xx.net/18MEX/18MEXm.pdf"}],
+  :info
+  {:designed-by "Mark Derrick (US)",
+   :produced-by "Deep Thought Games (US)",
+   :status "In Print",
+   :release-date "2005"},
+  :metadata
+  {:location "Mexico",
+   :corporations "8 / 3 (minor)",
+   :privates "4 (1830 style Auction)",
+   :map-size "64 hexes (71 total)",
+   :off-board "Two steps (2-4 / 5-4D)",
+   :bank "$9,000",
+   :tile-colours "Yellow / Green / Brown / Grey",
+   :stock-market "2D (Square)"}}
+ {:title "18Moon",
+  :link "http://www.18xx.net/18Moon/18Moon.htm",
+  :links [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}],
+  :info
+  {:designed-by "Michael Brünker",
+   :produced-by "To be determined",
+   :status "In development",
+   :release-date "To be determined"},
+  :metadata {:location "Moon Surface"}}
+ {:title "18MW",
+  :link "http://www.18xx.net/18MW/18MW.htm",
+  :links
+  [{:title "Rules", :url "http://www.18xx.net/18MW/18MWrule.htm"}
+   {:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}
+   {:title "Tiles", :url "http://www.18xx.net/tiles/18MW.htm"}
+   {:title "Map", :url "http://www.18xx.net/18MW/18MW.pdf"}],
+  :info
+  {:designed-by "Robin Barbehenn",
+   :produced-by "???",
+   :status "Continued development unlikely as designer is deceased.",
+   :release-date "Unlikely to be released"},
+  :metadata
+  {:location "USA Midwest",
+   :corporations "10",
+   :privates "7",
+   :map-size "???",
+   :off-board "???",
+   :bank "$12,000",
+   :tile-colours "Yellow / Green / Brown / Grey",
+   :stock-market "2D (Square)"}}
+ {:title "18NA",
+  :link "http://www.18xx.net/18NA/18NA.htm",
+  :links [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}],
+  :info
+  {:designed-by "Colorado Gamers",
+   :produced-by "To be determined",
+   :status "In development",
+   :release-date "To be determined"},
+  :metadata
+  {:location "North America",
+   :corporations "???",
+   :privates "???",
+   :map-size {:tag :b, :attrs nil, :content ("Huge!")},
+   :off-board "???",
+   :bank "???",
+   :tile-colours "???",
+   :stock-market "???"}}
+ {:title "18NE",
+  :link "http://www.18xx.net/18NE/18NE.htm",
+  :links [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}],
+  :info
+  {:designed-by "Rich Northey",
+   :produced-by "To be determined",
+   :status "In development",
+   :release-date "To be determined"},
+  :metadata {:location "New England, USA"}}
+ {:title "18NL",
+  :link "http://www.18xx.net/18NL/18NL.htm",
+  :links
+  [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}
+   {:title "Tiles", :url "http://www.18xx.net/tiles/18NL.htm"}
+   {:title "Download",
+    :url
+    "http://www.18xx.net/18NL/http://www.ohley.de/18nl/download.htm"}],
+  :info
+  {:designed-by "Theo Jansma, Helmut Ohley",
+   :produced-by "Wolfram Janich",
+   :status "In Print",
+   :release-date "October 1999"},
+  :metadata
+  {:location "Netherlands",
+   :corporations "9",
+   :privates "6 (Auction 1830 style)",
+   :map-size "64 hexes (78 total)",
+   :off-board "Two steps (2-4 / 5-D)",
+   :bank "12,000 Guilders",
+   :tile-colours "Yellow / Green / Brown",
+   :stock-market "2D (Square)"}}
+ {:title "18Rhl",
+  :link "http://www.18xx.net/18Rhl/18Rhl.htm",
+  :links [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}],
+  :info
+  {:designed-by "Wolfram Janich",
+   :produced-by "Marflow Games",
+   :status "In print",
+   :release-date "December 2006"},
+  :metadata
+  {:location "Rhineland (western Germany)",
+   :corporations "8",
+   :privates "6 (Auction 1830 style)",
+   :map-size "59 hexes (78 total)",
+   :off-board "Two steps (2-4 / 5-8)",
+   :bank "9,000 Marks",
+   :tile-colours "Yellow / Green / Brown / Grey",
+   :stock-market "2D (Square)"}}
+ {:title "18Scan",
+  :link "http://www.18xx.net/18Scan/18Scan.htm",
+  :links
+  [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}
+   {:title "Tiles", :url "http://www.18xx.net/tiles/18Scan.htm"}],
+  :info
+  {:designed-by "David Hecht",
+   :produced-by "Deep Thought Games",
+   :status "In Print",
+   :release-date "September 2005"},
+  :metadata
+  {:location "Scandinavia",
+   :corporations "3 minor / 4 major / 1 merger",
+   :privates "3",
+   :map-size "52 hexes (53 total)",
+   :off-board "Three levels (2 / 3-4 / 5-4D)",
+   :bank "Kr 6,000",
+   :tile-colours "Yellow / Green / Brown",
+   :stock-market "2D (Square)"}}
+ {:title "18SX",
+  :link "http://www.18xx.net/18SX/18SX.htm",
+  :links
+  [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}
+   {:title "Tiles", :url "http://www.18xx.net/tiles/18SX.htm"}],
+  :info
+  {:designed-by "Wolfram Janich (Germany)",
+   :produced-by "Marflow Games",
+   :status "In Print",
+   :release-date "2003"},
+  :metadata
+  {:location "Saxony (eastern Germany)",
+   :corporations "13 (maximum of 10 in play)",
+   :privates "8 (Start Packet)",
+   :map-size "97 hexes (122 total)",
+   :off-board "Three steps (H6 / H10 / H16)",
+   :bank "12,000 Marks",
+   :tile-colours "Yellow / Green / Brown / Grey",
+   :stock-market "2D (Square)"}}
+ {:title "18TN",
+  :link "http://www.18xx.net/18TN/18TN.htm",
+  :links
+  [{:title "FAQ", :url "http://www.18xx.net/18TN/18TNf.txt"}
+   {:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}
+   {:title "Rules", :url "http://www.18xx.net/18TN/18TNrule.txt"}
+   {:title "Tiles", :url "http://www.18xx.net/tiles/18TN.htm"}
+   {:title "Map", :url "http://www.18xx.net/18TN/18TNm.gif"}],
+  :info
+  {:designed-by "Mark Derrick",
+   :produced-by "Deep Thought Games",
+   :status "In print",
+   :release-date "September 2006"},
+  :metadata
+  {:location "Kentucky and Tennessee, United States",
+   :corporations "6",
+   :privates "5 (Auction 1830 style)",
+   :map-size "63 hexes (71 total)",
+   :off-board "Two steps (2-4 / 5-8)",
+   :bank "$7,500",
+   :tile-colours "Yellow / Green / Brown / Grey",
+   :stock-market "2D (Square)"}}
+ {:title "18US",
+  :link "http://www.18xx.net/18US/18US.htm",
+  :links
+  [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}
+   {:title "Tiles", :url "http://www.18xx.net/tiles/18US.htm"}],
+  :info
+  {:designed-by "David Hecht",
+   :produced-by "Deep Thought Games",
+   :status "In print",
+   :release-date "April 2007"},
+  :metadata
+  {:location "Continental USA",
+   :corporations "12",
+   :privates "12",
+   :map-size "84 hexes (89 total)",
+   :off-board "None",
+   :bank "$12,000",
+   :tile-colours "Yellow / Green / Brown / Grey",
+   :stock-market "1D (Linear)"}}
+ {:title "18UT",
+  :link "http://www.18xx.net/18UT/18UT.htm",
+  :links [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}],
+  :info
+  {:designed-by "Jeff Heuer",
+   :produced-by "To be determined",
+   :status "In development",
+   :release-date "To be determined"},
+  :metadata {:location "Utah"}}
+ {:title "18VA",
+  :link "http://www.18xx.net/18VA/18VA.htm",
+  :links
+  [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}
+   {:title "Tiles", :url "http://www.18xx.net/tiles/18VA.htm"}],
+  :info
+  {:designed-by "David Hecht",
+   :produced-by "Deep Thought Games (US)",
+   :status "In Print",
+   :release-date "2005"},
+  :metadata
+  {:location "Virginia and Maryland, USA",
+   :corporations "???",
+   :privates "???",
+   :map-size "???",
+   :off-board "???",
+   :bank "???",
+   :tile-colours "Yellow / Green / Brown / Grey",
+   :stock-market "2D (square)"}}
+ {:title "18WW",
+  :link "http://www.18xx.net/18WW/18WW.htm",
+  :links [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}],
+  :info
+  {:designed-by "???",
+   :produced-by "To be determined",
+   :status "In development",
+   :release-date "To be determined"},
+  :metadata {:location "Western Washington (state), USA"}}
+ {:title "1914",
+  :link "http://www.18xx.net/1914/1914.htm",
+  :links [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}],
+  :info
+  {:designed-by "???",
+   :produced-by "???",
+   :status "In Print",
+   :release-date "???"},
+  :metadata {:location "Continental USA"}}
+ {:title "1969",
+  :link "http://www.18xx.net/1969/1969.htm",
+  :links [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}],
+  :info
+  {:designed-by "Trevor Dewey",
+   :produced-by "Unlikely to be published",
+   :status "On hold or abandoned",
+   :release-date "To be determined"},
+  :metadata {:location "North Sea"}}
+ {:title "1990",
+  :link "http://www.18xx.net/1990/1990.htm",
+  :links [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}],
+  :info
+  {:designed-by "Alessandro Lala",
+   :produced-by "To be determined",
+   :status "In development",
+   :release-date "To be determined"},
+  :metadata {:location "Abstract"}}
+ {:title "2038",
+  :link "http://www.18xx.net/2038/2038.htm",
+  :links [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}],
+  :info
+  {:designed-by "James Hlavaty, Tom Lehmann",
+   :produced-by "Timjim / Prism Games",
+   :status "Out of Print",
+   :release-date "1995"},
+  :metadata
+  {:location "Asteroid Belt",
+   :corporations "8 major (layered), 6 minor",
+   :privates "6 (Auction 1830 style)",
+   :map-size "101 hexes (118 total)",
+   :off-board "None",
+   :bank "$10,000",
+   :tile-colours "Not applicable",
+   :stock-market "2D (Square)"}}
+ {:title "Crisis",
+  :link "http://www.18xx.net/Crisis/Crisis.htm",
+  :links
+  [{:title "Trainspotting",
+    :url
+    "http://www.18xx.net/Crisis/http://home.snafu.de/jasiek/crisis.html"}
+   {:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}
+   {:title "Pictures",
+    :url
+    "http://www.18xx.net/Crisis/http://home.snafu.de/jasiek/crpic.html"}
+   {:title "Tiles", :url "http://www.18xx.net/Crisis/Crisis_tiles.jpg"}
+   {:title "Availability",
+    :url
+    "http://www.18xx.net/Crisis/http://home.snafu.de/jasiek/crpurch.html"}
+   {:title "Comment",
+    :url
+    "http://www.18xx.net/Crisis/http://home.snafu.de/jasiek/crstrat.html"}
+   {:title "Summary",
+    :url
+    "http://www.18xx.net/Crisis/http://home.snafu.de/jasiek/crisis.html"}],
+  :info
+  {:designed-by "Robert Jasiek (Germany)",
+   :produced-by "Robert Jasiek",
+   :status "Awaiting Production",
+   :release-date "To be determined"},
+  :metadata
+  {:location "Abstract City Underground",
+   :corporations "12",
+   :privates "None",
+   :map-size "Virtual 6 by 6 square",
+   :off-board "None",
+   :bank "Unlimited",
+   :tile-colours
+   "(Green) / Yellow / Orange / Brown / Blue / Grey / Red",
+   :stock-market "2D (Square)"}}
+ {:title "Inflation",
+  :link "http://www.18xx.net/Inflation/Inflation.htm",
+  :links [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}],
+  :info
+  {:designed-by "Robert Jasiek",
+   :produced-by "To be determined",
+   :status "In development",
+   :release-date "To be determined"},
+  :metadata {:location "Abstract"}}
+ {:title "Lummerland",
+  :link "http://www.18xx.net/Lummerland/Lummerland.htm",
+  :links [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}],
+  :info
+  {:designed-by "???",
+   :produced-by "???",
+   :status "???",
+   :release-date "???"},
+  :metadata
+  {:location "Fantasy world",
+   :corporations "???",
+   :privates "???",
+   :map-size "???",
+   :off-board "???",
+   :bank "???",
+   :tile-colours "???",
+   :stock-market "???"}}
+ {:title "Powerrails",
+  :link "http://www.18xx.net/Powerrails/Powerrails.htm",
+  :links
+  [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}
+   {:title "Tiles", :url "http://www.18xx.net/tiles/Powerrails.htm"}],
+  :info
+  {:designed-by "Tom Schoeps (Germany)",
+   :produced-by "???",
+   :status "Not yet in print",
+   :release-date "???"},
+  :metadata
+  {:location "???",
+   :corporations "???",
+   :privates "???",
+   :map-size "???",
+   :off-board "???",
+   :bank "???",
+   :tile-colours "Yellow / Green / Brown / Grey / Pink",
+   :stock-market "???"}}
+ {:title "Ur: 1830 BC",
+  :link "http://www.18xx.net/Ur_1830_BC/Ur_1830_BC.htm",
+  :links [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}],
+  :info
+  {:designed-by "Joris Wiersinga, Jeroen Doumen",
+   :produced-by "Splotter Spellen (Netherlands)",
+   :status "In Print",
+   :release-date "???"},
+  :metadata
+  {:location "Mesopotamia, 1830 BC",
+   :corporations "6",
+   :privates "6",
+   :map-size "???",
+   :off-board "None",
+   :bank "Unlimited",
+   :tile-colours "None",
+   :stock-market "1D (Linear)"}}]
