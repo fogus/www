@@ -8,8 +8,17 @@
 #+EXPORT_SELECT_TAGS:  export
 #+EXPORT_EXCLUDE_TAGS: noexport
 
-[[./images/u-fae.jpg]]
+I originally ran a mono-blue list but eventually took it in this direction as my counter-heavy deck was getting blitzed by all of 
+the aggro decks in my groups. The addition of removal has helped a lot.
+
+* Mainboard
+
+[[./images/skred-fae.jpg]]
+
+* Sideboard
+
+[[./images/skred-fae-sb.jpg]]
 
 * Changes
 
-- <2020-02-18 Tue> initial image
+- <2020-03-04 Wed> initial image
