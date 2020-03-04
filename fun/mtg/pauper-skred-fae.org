@@ -1,4 +1,4 @@
-#+TITLE:     Pauper Mono-Blue Faeries
+#+TITLE:     Pauper Skred Faeries
 #+AUTHOR:    Fogus
 #+DATE:      <2020-02-18 Wed>
 #+LANGUAGE:            en
