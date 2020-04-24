@@ -10,6 +10,11 @@
 
 [[./images/sq.jpg]]
 
+This is an attempt at a pseudo lands-deck with Oath of Druids win-condition. Control elements and Sliver Queen are meant to
+stall in time to get the Oath down. This is an adaptation of my Canadian Highlander deck built around Oath.
+
 * Changes
 
-- <2020-04-03 Fri> initial image
+- <2020-04-03 Fri> stub image
+- <2020-04-24 Fri> first version deck shot
+
