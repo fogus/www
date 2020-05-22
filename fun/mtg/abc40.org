@@ -1,0 +1,135 @@
+#+TITLE:     Alphabet40
+#+AUTHOR:    Fogus
+#+DATE:      <2020-05-22 Fri>
+#+LANGUAGE:            en
+#+OPTIONS:             H:3 num:nil toc:1 \n:nil
+#+OPTIONS:             TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+INFOJS_OPT:          view:nil toc:nil ltoc:t mouse:underline buttons:0 path:http://orgmode.org/org-info.js
+#+EXPORT_SELECT_TAGS:  export
+#+EXPORT_EXCLUDE_TAGS: noexport
+
+| **Card**                     | **Color** | **Set**           |
+|------------------------------+-----------+-------------------|
+| Fallen Angel                 | Black     | Legends           |
+| Falling Star                 | Red       | Legends           |
+| False Orders                 | Red       | Unlimited Edition |
+| Farmstead                    | White     | Unlimited Edition |
+| Farrelite Priest             | White     | Fallen Empires    |
+| Farrel's Mantle              | White     | Fallen Empires    |
+| Farrel's Zealot              | White     | Fallen Empires    |
+| Farrel's Zealot              | White     | Fallen Empires    |
+| Farrel's Zealot              | White     | Fallen Empires    |
+| Fastbond                     | Green     | Unlimited Edition |
+| Fasting                      | White     | The Dark          |
+| Fear                         | Black     | Unlimited Edition |
+| Feedback                     | Blue      | Unlimited Edition |
+| Feint                        | Red       | Legends           |
+| Feldon's Cane                |           | Antiquities       |
+| Fellwar Stone                |           | The Dark          |
+| Feral Thallid                | Green     | Fallen Empires    |
+| Festival                     | White     | The Dark          |
+| Field of Dreams              | Blue      | Legends           |
+| Fire and Brimstone           | White     | The Dark          |
+| Fire Drake                   | Red       | The Dark          |
+| Fire Elemental               | Red       | Unlimited Edition |
+| Fire Sprites                 | Green     | Legends           |
+| Fireball                     | Red       | Unlimited Edition |
+| Firebreathing                | Red       | Unlimited Edition |
+| Firestorm Phoenix            | Red       | Legends           |
+| Fishliver Oil                | Blue      | Arabian Nights    |
+| Fishliver Oil                | Blue      | Arabian Nights    |
+| Fissure                      | Red       | The Dark          |
+| Flash Counter                | Blue      | Legends           |
+| Flash Flood                  | Blue      | Legends           |
+| Flashfires                   | Red       | Unlimited Edition |
+| Flight                       | Blue      | Unlimited Edition |
+| Flood                        | Blue      | The Dark          |
+| Floral Spuzzem               | Green     | Legends           |
+| Flying Carpet                |           | Arabian Nights    |
+| Flying Men                   | Blue      | Arabian Nights    |
+| Fog                          | Green     | Unlimited Edition |
+| Force of Nature              | Green     | Unlimited Edition |
+| Force Spike                  | Blue      | Legends           |
+| Forcefield                   |           | Unlimited Edition |
+| Forest                       |           | Unlimited Edition |
+| Forest                       |           | Unlimited Edition |
+| Forest                       |           | Unlimited Edition |
+| Forethought Amulet           |           | Legends           |
+| Fork                         | Red       | Unlimited Edition |
+| Fortified Area               | White     | Legends           |
+| Fountain of Youth            |           | The Dark          |
+| Frankenstein's Monster       | Black     | The Dark          |
+| Frost Giant                  | Red       | Legends           |
+| Frozen Shade                 | Black     | Unlimited Edition |
+| Fungal Bloom                 | Green     | Fallen Empires    |
+| Fungusaur                    | Green     | Unlimited Edition |
+| Magical Hack                 | Blue      | Unlimited Edition |
+| Magnetic Mountain            | Red       | Arabian Nights    |
+| Mahamoti Djinn               | Blue      | Unlimited Edition |
+| Mana Clash                   | Red       | The Dark          |
+| Mana Drain                   | Blue      | Legends           |
+| Mana Flare                   | Red       | Unlimited Edition |
+| Mana Matrix                  |           | Legends           |
+| Mana Short                   | Blue      | Unlimited Edition |
+| Mana Vault                   |           | Unlimited Edition |
+| Mana Vortex                  | Blue      | The Dark          |
+| Manabarbs                    | Red       | Unlimited Edition |
+| Marble Priest                |           | Legends           |
+| Marhault Elsdragon           | Red/Green | Legends           |
+| Marsh Gas                    | Black     | The Dark          |
+| Marsh Goblins                | Black/Red | The Dark          |
+| Marsh Viper                  | Green     | The Dark          |
+| Martyr's Cry                 | White     | The Dark          |
+| Martyrs of Korlis            | White     | Antiquities       |
+| Master of the Hunt           | Green     | Legends           |
+| Maze of Ith                  |           | The Dark          |
+| Meekstone                    |           | Unlimited Edition |
+| Merchant Ship                | Blue      | Arabian Nights    |
+| Merfolk Assassin             | Blue      | The Dark          |
+| Merfolk of the Pearl Trident | Blue      | Unlimited Edition |
+| Merseine                     | Blue      | Fallen Empires    |
+| Merseine                     | Blue      | Fallen Empires    |
+| Merseine                     | Blue      | Fallen Empires    |
+| Merseine                     | Blue      | Fallen Empires    |
+| Mesa Pegasus                 | White     | Unlimited Edition |
+| Metamorphosis                | Green     | Arabian Nights    |
+| Mightstone                   |           | Antiquities       |
+| Mijae Djinn                  | Red       | Arabian Nights    |
+| Millstone                    |           | Antiquities       |
+| Mind Bomb                    | Blue      | The Dark          |
+| Mind Twist                   | Black     | Unlimited Edition |
+| Mindstab Thrull              | Black     | Fallen Empires    |
+| Mindstab Thrull              | Black     | Fallen Empires    |
+| Mindstab Thrull              | Black     | Fallen Empires    |
+| Miracle Worker               | White     | The Dark          |
+| Mirror Universe              |           | Legends           |
+| Mishra's Factory             |           | Antiquities       |
+| Mishra's Factory             |           | Antiquities       |
+| Mishra's Factory             |           | Antiquities       |
+| Mishra's Factory             |           | Antiquities       |
+| Mishra's War Machine         |           | Antiquities       |
+| Mishra's Workshop            |           | Antiquities       |
+| Moat                         | White     | Legends           |
+| Mold Demon                   | Black     | Legends           |
+| Mons's Goblin Raiders        | Red       | Unlimited Edition |
+| Moorish Cavalry              | White     | Arabian Nights    |
+| Moorish Cavalry              | White     | Arabian Nights    |
+| Morale                       | White     | The Dark          |
+| Moss Monster                 | Green     | Legends           |
+| Mountain                     |           | Arabian Nights    |
+| Mountain                     |           | Unlimited Edition |
+| Mountain                     |           | Unlimited Edition |
+| Mountain                     |           | Unlimited Edition |
+| Mountain Stronghold          |           | Legends           |
+| Mountain Yeti                | Red       | Legends           |
+| Mox Emerald                  |           | Unlimited Edition |
+| Mox Jet                      |           | Unlimited Edition |
+| Mox Pearl                    |           | Unlimited Edition |
+| Mox Ruby                     |           | Unlimited Edition |
+| Mox Sapphire                 |           | Unlimited Edition |
+| Murk Dwellers                | Black     | The Dark          |
+
+
+* Changes
+
+
