@@ -8,6 +8,17 @@
 #+EXPORT_SELECT_TAGS:  export
 #+EXPORT_EXCLUDE_TAGS: noexport
 
+* What is ABC40?
+
+The [[http://oldschool-mtg.blogspot.com/2020/05/abc-40-perfectly-unfair-format.html][Overview]] at the 93/94 blog is a good place to start. In summary:
+
+- Minimum 40 card decks
+- Swedish B&R
+- You only play basic lands
+- You only play cards that start with the same letter as your first /or/ last name
+
+* MF legal cards
+
 | **Card**                     | **Color**  | **Set(s)**                      |
 |------------------------------+------------+---------------------------------|
 | Fallen Angel                 | Black      | Legends                         |
