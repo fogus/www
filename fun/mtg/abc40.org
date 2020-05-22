@@ -25,25 +25,25 @@ The [[http://oldschool-mtg.blogspot.com/2020/05/abc-40-perfectly-unfair-format.h
 | Falling Star                 | Red        | Legends                         |
 | False Orders                 | Red        | Alpha, Beta, Unlimited          |
 | Farmstead                    | White      | Alpha, Beta, Unlimited, Revised |
-| Farrelite Priest             | White      | Fallen Empires                  |
 | Farrel's Mantle              | White      | Fallen Empires                  |
 | Farrel's Zealot              | White      | Fallen Empires                  |
 | Farrel's Zealot              | White      | Fallen Empires                  |
 | Farrel's Zealot              | White      | Fallen Empires                  |
+| Farrelite Priest             | White      | Fallen Empires                  |
 | Fastbond                     | Green      | Alpha, Beta, Unlimited, Revised |
 | Fasting                      | White      | The Dark                        |
 | Fear                         | Black      | Alpha, Beta, Unlimited, Revised |
 | Feedback                     | Blue       | Alpha, Beta, Unlimited, Revised |
 | Feint                        | Red        | Legends                         |
-| Feldon's Cane                |            | Antiquities                     |
-| Fellwar Stone                |            | The Dark                        |
+| Feldon's Cane                | ___        | Antiquities                     |
+| Fellwar Stone                | ___        | The Dark                        |
 | Feral Thallid                | Green      | Fallen Empires                  |
 | Festival                     | White      | The Dark                        |
 | Field of Dreams              | Blue       | Legends                         |
-| Fire and Brimstone           | White      | The Dark                        |
 | Fire Drake                   | Red        | The Dark                        |
 | Fire Elemental               | Red        | Alpha, Beta, Unlimited, Revised |
 | Fire Sprites                 | Green      | Legends                         |
+| Fire and Brimstone           | White      | The Dark                        |
 | Fireball                     | Red        | Alpha, Beta, Unlimited, Revised |
 | Firebreathing                | Red        | Alpha, Beta, Unlimited, Revised |
 | Firestorm Phoenix            | Red        | Legends                         |
@@ -56,16 +56,16 @@ The [[http://oldschool-mtg.blogspot.com/2020/05/abc-40-perfectly-unfair-format.h
 | Flight                       | Blue       | Alpha, Beta, Unlimited, Revised |
 | Flood                        | Blue       | The Dark                        |
 | Floral Spuzzem               | Green      | Legends                         |
-| Flying Carpet                |            | Arabian Nights                  |
+| Flying Carpet                | ___        | Arabian Nights                  |
 | Flying Men                   | Blue       | Arabian Nights                  |
 | Fog                          | Green      | Alpha, Beta, Unlimited, Revised |
-| Force of Nature              | Green      | Alpha, Beta, Unlimited, Revised |
 | Force Spike                  | Blue       | Legends                         |
-| Forcefield                   |            | Alpha, Beta, Unlimited          |
-| Forethought Amulet           |            | Legends                         |
+| Force of Nature              | Green      | Alpha, Beta, Unlimited, Revised |
+| Forcefield                   | ___        | Alpha, Beta, Unlimited          |
+| Forethought Amulet           | ___        | Legends                         |
 | Fork                         | Red        | Alpha, Beta, Unlimited, Revised |
 | Fortified Area               | White      | Legends                         |
-| Fountain of Youth            |            | The Dark                        |
+| Fountain of Youth            | ___        | The Dark                        |
 | Frankenstein's Monster       | Black      | The Dark                        |
 | Frost Giant                  | Red        | Legends                         |
 | Frozen Shade                 | Black      | Alpha, Beta, Unlimited, Revised |
@@ -77,12 +77,12 @@ The [[http://oldschool-mtg.blogspot.com/2020/05/abc-40-perfectly-unfair-format.h
 | Mana Clash                   | Red        | The Dark                        |
 | Mana Drain                   | Blue       | Legends                         |
 | Mana Flare                   | Red        | Alpha, Beta, Unlimited, Revised |
-| Mana Matrix                  |            | Legends                         |
+| Mana Matrix                  | ___        | Legends                         |
 | Mana Short                   | Blue       | Alpha, Beta, Unlimited, Revised |
-| Mana Vault                   |            | Alpha, Beta, Unlimited, Revised |
+| Mana Vault                   | ___        | Alpha, Beta, Unlimited, Revised |
 | Mana Vortex                  | Blue       | The Dark                        |
 | Manabarbs                    | Red        | Alpha, Beta, Unlimited, Revised |
-| Marble Priest                |            | Legends                         |
+| Marble Priest                | ___        | Legends                         |
 | Marhault Elsdragon           | Red, Green | Legends                         |
 | Marsh Gas                    | Black      | The Dark                        |
 | Marsh Goblins                | Black, Red | The Dark                        |
@@ -90,8 +90,8 @@ The [[http://oldschool-mtg.blogspot.com/2020/05/abc-40-perfectly-unfair-format.h
 | Martyr's Cry                 | White      | The Dark                        |
 | Martyrs of Korlis            | White      | Antiquities                     |
 | Master of the Hunt           | Green      | Legends                         |
-| Maze of Ith                  |            | The Dark                        |
-| Meekstone                    |            | Alpha, Beta, Unlimited, Revised |
+| Maze of Ith                  | ___        | The Dark                        |
+| Meekstone                    | ___        | Alpha, Beta, Unlimited, Revised |
 | Merchant Ship                | Blue       | Arabian Nights                  |
 | Merfolk Assassin             | Blue       | The Dark                        |
 | Merfolk of the Pearl Trident | Blue       | Alpha, Beta, Unlimited, Revised |
@@ -101,22 +101,19 @@ The [[http://oldschool-mtg.blogspot.com/2020/05/abc-40-perfectly-unfair-format.h
 | Merseine                     | Blue       | Fallen Empires                  |
 | Mesa Pegasus                 | White      | Alpha, Beta, Unlimited, Revised |
 | Metamorphosis                | Green      | Arabian Nights                  |
-| Mightstone                   |            | Antiquities                     |
+| Mightstone                   | ___        | Antiquities                     |
 | Mijae Djinn                  | Red        | Arabian Nights                  |
-| Millstone                    |            | Antiquities                     |
+| Millstone                    | ___        | Antiquities                     |
 | Mind Bomb                    | Blue       | The Dark                        |
 | Mind Twist                   | Black      | Alpha, Beta, Unlimited, Revised |
 | Mindstab Thrull              | Black      | Fallen Empires                  |
 | Mindstab Thrull              | Black      | Fallen Empires                  |
 | Mindstab Thrull              | Black      | Fallen Empires                  |
 | Miracle Worker               | White      | The Dark                        |
-| Mirror Universe              |            | Legends                         |
-| Mishra's Factory             |            | Antiquities                     |
-| Mishra's Factory             |            | Antiquities                     |
-| Mishra's Factory             |            | Antiquities                     |
-| Mishra's Factory             |            | Antiquities                     |
-| Mishra's War Machine         |            | Antiquities                     |
-| Mishra's Workshop            |            | Antiquities                     |
+| Mirror Universe              | ___        | Legends                         |
+| Mishra's Factory             | ___        | Antiquities                     |
+| Mishra's War Machine         | ___        | Antiquities                     |
+| Mishra's Workshop            | ___        | Antiquities                     |
 | Moat                         | White      | Legends                         |
 | Mold Demon                   | Black      | Legends                         |
 | Mons's Goblin Raiders        | Red        | Alpha, Beta, Unlimited, Revised |
@@ -124,13 +121,13 @@ The [[http://oldschool-mtg.blogspot.com/2020/05/abc-40-perfectly-unfair-format.h
 | Moorish Cavalry              | White      | Arabian Nights                  |
 | Morale                       | White      | The Dark                        |
 | Moss Monster                 | Green      | Legends                         |
-| Mountain Stronghold          |            | Legends                         |
+| Mountain Stronghold          | ___        | Legends                         |
 | Mountain Yeti                | Red        | Legends                         |
-| Mox Emerald                  |            | Alpha, Beta, Unlimited, Revised |
-| Mox Jet                      |            | Alpha, Beta, Unlimited, Revised |
-| Mox Pearl                    |            | Alpha, Beta, Unlimited, Revised |
-| Mox Ruby                     |            | Alpha, Beta, Unlimited, Revised |
-| Mox Sapphire                 |            | Alpha, Beta, Unlimited, Revised |
+| Mox Emerald                  | ___        | Alpha, Beta, Unlimited, Revised |
+| Mox Jet                      | ___        | Alpha, Beta, Unlimited, Revised |
+| Mox Pearl                    | ___        | Alpha, Beta, Unlimited, Revised |
+| Mox Ruby                     | ___        | Alpha, Beta, Unlimited, Revised |
+| Mox Sapphire                 | ___        | Alpha, Beta, Unlimited, Revised |
 | Murk Dwellers                | Black      | The Dark                        |
 
 
