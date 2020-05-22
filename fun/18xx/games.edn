@@ -1654,4 +1654,5 @@ Companies are fully funded when floated, and can start at any of six initial val
   :stock-market "1D (Linear)",
   :location "Mesopotamia, 1830 BC",
   :produced-by "Splotter Spellen (Netherlands)",
-  :links [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}]}]
+  :links [{:title "HELP", :url "http://www.18xx.net/help/18xx.htm"}]}
+]
