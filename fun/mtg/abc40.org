@@ -27,8 +27,6 @@ The [[http://oldschool-mtg.blogspot.com/2020/05/abc-40-perfectly-unfair-format.h
 | Farmstead                    | White      | Alpha, Beta, Unlimited, Revised |
 | Farrel's Mantle              | White      | Fallen Empires                  |
 | Farrel's Zealot              | White      | Fallen Empires                  |
-| Farrel's Zealot              | White      | Fallen Empires                  |
-| Farrel's Zealot              | White      | Fallen Empires                  |
 | Farrelite Priest             | White      | Fallen Empires                  |
 | Fastbond                     | Green      | Alpha, Beta, Unlimited, Revised |
 | Fasting                      | White      | The Dark                        |
@@ -47,7 +45,6 @@ The [[http://oldschool-mtg.blogspot.com/2020/05/abc-40-perfectly-unfair-format.h
 | Fireball                     | Red        | Alpha, Beta, Unlimited, Revised |
 | Firebreathing                | Red        | Alpha, Beta, Unlimited, Revised |
 | Firestorm Phoenix            | Red        | Legends                         |
-| Fishliver Oil                | Blue       | Arabian Nights                  |
 | Fishliver Oil                | Blue       | Arabian Nights                  |
 | Fissure                      | Red        | The Dark                        |
 | Flash Counter                | Blue       | Legends                         |
@@ -96,9 +93,6 @@ The [[http://oldschool-mtg.blogspot.com/2020/05/abc-40-perfectly-unfair-format.h
 | Merfolk Assassin             | Blue       | The Dark                        |
 | Merfolk of the Pearl Trident | Blue       | Alpha, Beta, Unlimited, Revised |
 | Merseine                     | Blue       | Fallen Empires                  |
-| Merseine                     | Blue       | Fallen Empires                  |
-| Merseine                     | Blue       | Fallen Empires                  |
-| Merseine                     | Blue       | Fallen Empires                  |
 | Mesa Pegasus                 | White      | Alpha, Beta, Unlimited, Revised |
 | Metamorphosis                | Green      | Arabian Nights                  |
 | Mightstone                   | ___        | Antiquities                     |
@@ -106,8 +100,6 @@ The [[http://oldschool-mtg.blogspot.com/2020/05/abc-40-perfectly-unfair-format.h
 | Millstone                    | ___        | Antiquities                     |
 | Mind Bomb                    | Blue       | The Dark                        |
 | Mind Twist                   | Black      | Alpha, Beta, Unlimited, Revised |
-| Mindstab Thrull              | Black      | Fallen Empires                  |
-| Mindstab Thrull              | Black      | Fallen Empires                  |
 | Mindstab Thrull              | Black      | Fallen Empires                  |
 | Miracle Worker               | White      | The Dark                        |
 | Mirror Universe              | ___        | Legends                         |
@@ -117,7 +109,6 @@ The [[http://oldschool-mtg.blogspot.com/2020/05/abc-40-perfectly-unfair-format.h
 | Moat                         | White      | Legends                         |
 | Mold Demon                   | Black      | Legends                         |
 | Mons's Goblin Raiders        | Red        | Alpha, Beta, Unlimited, Revised |
-| Moorish Cavalry              | White      | Arabian Nights                  |
 | Moorish Cavalry              | White      | Arabian Nights                  |
 | Morale                       | White      | The Dark                        |
 | Moss Monster                 | Green      | Legends                         |
