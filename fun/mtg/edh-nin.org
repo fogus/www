@@ -13,3 +13,4 @@
 * Changes
 
 - <2020-02-11 Tue> initial image
+- <2020-07-10 Fri> replaced ~Negate~ with ~Fierce Guardianship~
